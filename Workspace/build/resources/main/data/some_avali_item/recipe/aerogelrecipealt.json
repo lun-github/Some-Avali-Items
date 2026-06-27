@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aaa",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "some_avali_item:aerogeldust"
+    }
+  },
+  "result": {
+    "id": "some_avali_item:aerogel",
+    "count": 1
+  }
+}

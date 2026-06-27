@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aaa",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "id": "some_avali_item:redcrystal",
+    "count": 1
+  }
+}

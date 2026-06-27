@@ -1,0 +1,54 @@
+{
+  "_fv": 79,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Hoe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "aerohoe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "§6Aerohoe",
+    "specialInformation": {
+      "fixedValue": [
+        "§2+ Instead of a tool, breaks blade +",
+        "§2+ Reprint blade while active +",
+        "§2+ Immune to fire +",
+        "",
+        "§4- Cannot be enchanted -",
+        "",
+        "§7= Plowing 3x3 ="
+      ]
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:SAI"
+      }
+    ],
+    "efficiency": 15.0,
+    "attackSpeed": 1.0,
+    "enchantability": 1,
+    "damageVsEntity": 5.0,
+    "usageCount": 256,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Aerogel"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedOnBlock": {
+      "name": "Aerohoe_block_rbm"
+    },
+    "onItemInUseTick": {
+      "name": "Aerotool_hand_tick"
+    }
+  }
+}

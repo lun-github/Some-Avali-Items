@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "experience": 12,
+  "cookingtime": 3200,
+  "ingredient": {
+    "item": "some_avali_item:graphiterod"
+  },
+  "result": {
+    "id": "some_avali_item:heatedgraphiterod"
+  }
+}

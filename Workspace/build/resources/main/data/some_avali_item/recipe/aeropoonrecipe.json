@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    " a ",
+    "  a"
+  ],
+  "key": {
+    "a": {
+      "item": "some_avali_item:aerogelpack"
+    }
+  },
+  "result": {
+    "id": "some_avali_item:harpoon",
+    "count": 8
+  }
+}

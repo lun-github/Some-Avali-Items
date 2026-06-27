@@ -1,0 +1,36 @@
+{
+  "_fv": 79,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Special",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "aerohoe_tool",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "§6Aerohoe Handle",
+    "specialInformation": {
+      "fixedValue": [
+        "§7= Press RBM to print blade back ="
+      ]
+    },
+    "creativeTabs": [],
+    "efficiency": 1.0,
+    "attackSpeed": 1.0,
+    "enchantability": 1,
+    "damageVsEntity": 1.0,
+    "usageCount": 0,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": true,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "Aerotool_rbm"
+    }
+  }
+}

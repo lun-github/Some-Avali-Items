@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "some_avali_item:aerogelpack"
+    },
+    {
+      "item": "some_avali_item:shieldemmiter"
+    },
+    {
+      "item": "some_avali_item:aerogelpack"
+    }
+  ],
+  "result": {
+    "id": "some_avali_item:aeroshield",
+    "count": 1
+  }
+}

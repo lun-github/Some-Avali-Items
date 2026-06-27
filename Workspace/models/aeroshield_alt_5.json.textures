@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "aeroshield_txr.png": "aeroshield_txr"
+      }
+    }
+  }
+}

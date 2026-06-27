@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "ded",
+    "fbg"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:green_dye"
+    },
+    "b": {
+      "item": "some_avali_item:quarzite"
+    },
+    "c": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "d": {
+      "item": "some_avali_item:redstonewire"
+    },
+    "e": {
+      "item": "minecraft:glass_pane"
+    },
+    "f": {
+      "item": "minecraft:red_dye"
+    },
+    "g": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "id": "some_avali_item:display",
+    "count": 1
+  }
+}

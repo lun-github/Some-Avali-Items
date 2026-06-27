@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:Graphite"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Aerogelpack"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Aerogelpack"
+      },
+      {
+        "value": "CUSTOM:Thread"
+      },
+      {
+        "value": "CUSTOM:Graphiterod"
+      },
+      {
+        "value": "CUSTOM:Graphite"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Aerofishrod"
+    },
+    "name": "aerofishrodrecipe",
+    "namespace": "mod"
+  }
+}

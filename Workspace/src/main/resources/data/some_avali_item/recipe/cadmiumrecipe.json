@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "some_avali_item:cadmiumnugget"
+    }
+  },
+  "result": {
+    "id": "some_avali_item:cadmium",
+    "count": 1
+  }
+}

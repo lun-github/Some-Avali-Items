@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "some_avali_item:block/quarzite_plate_v2",
+    "up": "some_avali_item:block/container_display_empty",
+    "north": "some_avali_item:block/container_display",
+    "east": "some_avali_item:block/quarzite_plate_v2",
+    "south": "some_avali_item:block/quarzite_plate_v2",
+    "west": "some_avali_item:block/quarzite_plate_v2",
+    "particle": "some_avali_item:block/quarzite_plate_v2"
+  },
+  "render_type": "solid"
+}

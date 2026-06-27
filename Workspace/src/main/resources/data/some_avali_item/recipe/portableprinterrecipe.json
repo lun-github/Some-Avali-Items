@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abb",
+    "cde",
+    "fgh"
+  ],
+  "key": {
+    "a": {
+      "item": "some_avali_item:aerosharper"
+    },
+    "b": {
+      "item": "some_avali_item:quarzite"
+    },
+    "c": {
+      "item": "some_avali_item:holoprojector"
+    },
+    "d": {
+      "item": "some_avali_item:microchip"
+    },
+    "e": {
+      "item": "some_avali_item:graphiterod"
+    },
+    "f": {
+      "item": "some_avali_item:redstonewire"
+    },
+    "g": {
+      "item": "some_avali_item:aerogelcan"
+    },
+    "h": {
+      "item": "some_avali_item:redstonebattery"
+    }
+  },
+  "result": {
+    "id": "some_avali_item:portableprinter",
+    "count": 1
+  }
+}

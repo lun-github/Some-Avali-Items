@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 10,
+  "cookingtime": 400,
+  "ingredient": {
+    "item": "some_avali_item:selicagel"
+  },
+  "result": {
+    "id": "some_avali_item:aerogel"
+  }
+}

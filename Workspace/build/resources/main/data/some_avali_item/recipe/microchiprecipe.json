@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "ebf"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:redstone"
+    },
+    "b": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "c": {
+      "item": "some_avali_item:simplemicrochip"
+    },
+    "d": {
+      "item": "some_avali_item:cadmium"
+    },
+    "e": {
+      "item": "minecraft:redstone_block"
+    },
+    "f": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "id": "some_avali_item:microchip",
+    "count": 1
+  }
+}

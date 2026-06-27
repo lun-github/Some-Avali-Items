@@ -1,0 +1,58 @@
+{
+  "_fv": 79,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "aeroraiper",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "§6Aeroiper",
+    "specialInformation": {
+      "fixedValue": [
+        "§2+ Instead of a tool, breaks blade +",
+        "§2+ Reprint blade while active +",
+        "§2+ Immune to fire +",
+        "",
+        "§4- Cannot be enchanted -",
+        "",
+        "§7= 200% damage while above enemy =",
+        "§7= RBM for parry attack to avoid damage ="
+      ]
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:SAI"
+      }
+    ],
+    "efficiency": 15.0,
+    "attackSpeed": 2.7,
+    "enchantability": 1,
+    "damageVsEntity": 5.0,
+    "usageCount": 256,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Aerogel"
+      }
+    ],
+    "immuneToFire": true,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "Aeroiper_parry"
+    },
+    "onEntityHitWith": {
+      "name": "Aeroiper_hit"
+    },
+    "onItemInUseTick": {
+      "name": "Aerotool_hand_tick"
+    }
+  }
+}

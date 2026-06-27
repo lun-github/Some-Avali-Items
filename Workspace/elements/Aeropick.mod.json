@@ -1,0 +1,54 @@
+{
+  "_fv": 79,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Pickaxe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "aeropick",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "§6Aeropick",
+    "specialInformation": {
+      "fixedValue": [
+        "§2+ Instead of a tool, breaks blade +",
+        "§2+ Reprint blade while active +",
+        "§2+ Immune to fire +",
+        "",
+        "§4- Cannot be enchanted -",
+        "",
+        "§7= Comfortable mining ="
+      ]
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:SAI"
+      }
+    ],
+    "efficiency": 15.0,
+    "attackSpeed": 1.2,
+    "enchantability": 1,
+    "damageVsEntity": 7.0,
+    "usageCount": 256,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Aerogel"
+      }
+    ],
+    "immuneToFire": true,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInUseTick": {
+      "name": "Aerotool_hand_tick"
+    },
+    "onBlockDestroyedWithTool": {
+      "name": "Aeropick_block_destroyed"
+    }
+  }
+}

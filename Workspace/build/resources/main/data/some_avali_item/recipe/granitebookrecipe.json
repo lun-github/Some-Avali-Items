@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "add",
+    "add"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:paper"
+    },
+    "b": {
+      "item": "some_avali_item:aeroneedle"
+    },
+    "c": {
+      "item": "some_avali_item:thread"
+    },
+    "d": {
+      "item": "some_avali_item:graniteof_science"
+    }
+  },
+  "result": {
+    "id": "some_avali_item:granitebook",
+    "count": 1
+  }
+}

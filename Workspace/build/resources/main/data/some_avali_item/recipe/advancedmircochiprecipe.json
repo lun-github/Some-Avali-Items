@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "efg"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:redstone"
+    },
+    "b": {
+      "item": "some_avali_item:aerogelpack"
+    },
+    "c": {
+      "item": "some_avali_item:microchip"
+    },
+    "d": {
+      "item": "minecraft:lapis_block"
+    },
+    "e": {
+      "item": "some_avali_item:diamatchip"
+    },
+    "f": {
+      "item": "some_avali_item:graphite"
+    },
+    "g": {
+      "item": "some_avali_item:hriochip"
+    }
+  },
+  "result": {
+    "id": "some_avali_item:advancedmircochip",
+    "count": 1
+  }
+}

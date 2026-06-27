@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "some_avali_item:block/ammonia_sand",
+    "particle": "some_avali_item:block/ammonia_sand"
+  },
+  "render_type": "solid"
+}

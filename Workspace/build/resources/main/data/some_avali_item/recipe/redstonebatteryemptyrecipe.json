@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cbc"
+  ],
+  "key": {
+    "a": {
+      "item": "some_avali_item:cadmiumnugget"
+    },
+    "b": {
+      "item": "some_avali_item:graphiterod"
+    },
+    "c": {
+      "item": "some_avali_item:cadmium"
+    }
+  },
+  "result": {
+    "id": "some_avali_item:redstonebatteryempty",
+    "count": 2
+  }
+}

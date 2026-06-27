@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:podzol",
+    "minecraft:dirt",
+    "minecraft:coarse_dirt",
+    "minecraft:dirt_path"
+  ]
+}

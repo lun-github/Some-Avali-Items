@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cac",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "b": {
+      "item": "some_avali_item:cadmiumnugget"
+    },
+    "c": {
+      "item": "some_avali_item:graphitepeace"
+    }
+  },
+  "result": {
+    "id": "some_avali_item:lapisdot",
+    "count": 1
+  }
+}

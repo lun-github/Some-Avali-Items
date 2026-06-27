@@ -1,0 +1,11 @@
+{
+  "criteria": {
+    "mindblow_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "minecraft:adventure/adventuring_time"
+}

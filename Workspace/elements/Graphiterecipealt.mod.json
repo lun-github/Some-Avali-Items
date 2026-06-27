@@ -1,0 +1,23 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 2.0,
+    "cookingTime": 2000,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "Blocks.COAL_BLOCK"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:Graphite"
+    },
+    "name": "graphiterecipealt",
+    "namespace": "mod"
+  }
+}

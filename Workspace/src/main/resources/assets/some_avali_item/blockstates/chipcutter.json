@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "some_avali_item:block/chipcutter"
+    },
+    "facing=east": {
+      "model": "some_avali_item:block/chipcutter",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "some_avali_item:block/chipcutter",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "some_avali_item:block/chipcutter",
+      "y": 270
+    }
+  }
+}

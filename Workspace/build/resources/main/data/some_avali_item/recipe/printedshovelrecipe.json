@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "some_avali_item:printedshovel"
+    }
+  },
+  "result": {
+    "id": "some_avali_item:aerogeldust",
+    "count": 1
+  }
+}

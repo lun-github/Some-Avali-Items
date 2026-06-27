@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:Paddiumnugget"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Paddiumnugget"
+      },
+      {
+        "value": "CUSTOM:Paddiumnugget"
+      },
+      {
+        "value": "CUSTOM:Paddiumnugget"
+      },
+      {
+        "value": "CUSTOM:Paddiumnugget"
+      },
+      {
+        "value": "CUSTOM:Paddiumnugget"
+      },
+      {
+        "value": "CUSTOM:Paddiumnugget"
+      },
+      {
+        "value": "CUSTOM:Paddiumnugget"
+      },
+      {
+        "value": "CUSTOM:Paddiumnugget"
+      },
+      {
+        "value": "CUSTOM:Paddiumnugget"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Paddium"
+    },
+    "name": "paddiumrecipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    " b ",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:bedrock"
+    },
+    "b": {
+      "item": "some_avali_item:graphiterod"
+    }
+  },
+  "result": {
+    "id": "some_avali_item:bebrockpickaxe",
+    "count": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cbc",
+    "cdc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_nugget"
+    },
+    "b": {
+      "item": "some_avali_item:graphiterod"
+    },
+    "c": {
+      "item": "minecraft:redstone"
+    },
+    "d": {
+      "item": "some_avali_item:quarzite"
+    }
+  },
+  "result": {
+    "id": "some_avali_item:redstonebatteryempty",
+    "count": 1
+  }
+}

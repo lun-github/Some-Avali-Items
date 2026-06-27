@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smoking",
+  "category": "misc",
+  "experience": 2,
+  "cookingtime": 50,
+  "ingredient": {
+    "item": "some_avali_item:leafymoss"
+  },
+  "result": {
+    "id": "minecraft:green_dye"
+  }
+}

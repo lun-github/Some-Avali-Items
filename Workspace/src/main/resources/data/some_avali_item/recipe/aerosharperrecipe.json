@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ab",
+    "acd",
+    "bd "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:diamond"
+    },
+    "b": {
+      "item": "some_avali_item:graphite"
+    },
+    "c": {
+      "item": "some_avali_item:cadmium"
+    },
+    "d": {
+      "item": "some_avali_item:redstonewire"
+    }
+  },
+  "result": {
+    "id": "some_avali_item:aerosharper",
+    "count": 1
+  }
+}

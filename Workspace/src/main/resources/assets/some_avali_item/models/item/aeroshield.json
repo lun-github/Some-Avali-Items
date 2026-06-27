@@ -1,0 +1,39 @@
+{
+  "loader": "neoforge:separate_transforms",
+  "gui_light": "front",
+  "base": {
+    "parent": "some_avali_item:custom/aeroshield_alt_5",
+    "textures": {
+      "aeroshield_txr.png": "some_avali_item:block/aeroshield_txr",
+      "particle": "some_avali_item:item/aeroshield"
+    }
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "some_avali_item:item/aeroshield"
+      }
+    },
+    "fixed": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "some_avali_item:item/aeroshield"
+      }
+    },
+    "ground": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "some_avali_item:item/aeroshield"
+      }
+    }
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "blocking": 1
+      },
+      "model": "some_avali_item:item/aeroshield_0"
+    }
+  ]
+}

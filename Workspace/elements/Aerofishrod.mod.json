@@ -1,0 +1,44 @@
+{
+  "_fv": 79,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Fishing rod",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "aerofish_rod",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "§6Aerofish Rod",
+    "specialInformation": {
+      "fixedValue": [
+        "§2+ Immune to fire (n` lava ish?) +",
+        "",
+        "§7= Lava fishing ="
+      ]
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:SAI"
+      }
+    ],
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 4.0,
+    "usageCount": 256,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Aerogel"
+      }
+    ],
+    "immuneToFire": true,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

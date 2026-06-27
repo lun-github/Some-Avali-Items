@@ -1,0 +1,27 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:Graphiterod"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 12.0,
+    "cookingTime": 3200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:Graphiterod"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:Heatedgraphiterod"
+    },
+    "name": "heatedgraphiterodrecipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "some_avali_item:block/hard_ice",
+    "particle": "some_avali_item:block/hard_ice"
+  },
+  "render_type": "solid"
+}

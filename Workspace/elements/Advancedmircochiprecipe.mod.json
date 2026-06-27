@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:Microchip"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.REDSTONE"
+      },
+      {
+        "value": "CUSTOM:Aerogelpack"
+      },
+      {
+        "value": "Items.REDSTONE"
+      },
+      {
+        "value": "CUSTOM:Microchip"
+      },
+      {
+        "value": "Blocks.LAPIS_BLOCK"
+      },
+      {
+        "value": "CUSTOM:Microchip"
+      },
+      {
+        "value": "CUSTOM:Diamatchip"
+      },
+      {
+        "value": "CUSTOM:Graphite"
+      },
+      {
+        "value": "CUSTOM:Hriochip"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Advancedmircochip"
+    },
+    "name": "advancedmircochiprecipe",
+    "namespace": "mod"
+  }
+}

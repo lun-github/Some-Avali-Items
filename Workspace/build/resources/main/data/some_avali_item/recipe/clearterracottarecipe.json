@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "minecraft:terracotta"
+    },
+    {
+      "item": "some_avali_item:desiccantsilicagel"
+    }
+  ],
+  "result": {
+    "id": "minecraft:terracotta",
+    "count": 1
+  }
+}

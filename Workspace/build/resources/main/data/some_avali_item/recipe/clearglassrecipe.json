@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:glass_blocks/cheap"
+    },
+    {
+      "item": "some_avali_item:desiccantsilicagel"
+    }
+  ],
+  "result": {
+    "id": "minecraft:glass",
+    "count": 1
+  }
+}

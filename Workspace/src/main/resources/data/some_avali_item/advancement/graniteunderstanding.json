@@ -1,0 +1,11 @@
+{
+  "criteria": {
+    "graniteunderstanding_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 10000
+  },
+  "parent": "minecraft:adventure/adventuring_time"
+}

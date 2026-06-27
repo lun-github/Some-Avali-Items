@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "some_avali_item:block/aeroblock_clear",
+    "particle": "some_avali_item:block/aeroblock_clear"
+  },
+  "render_type": "translucent"
+}

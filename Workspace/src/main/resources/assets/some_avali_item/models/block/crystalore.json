@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "some_avali_item:block/crystall_ore",
+    "particle": "some_avali_item:block/crystall_ore"
+  },
+  "render_type": "solid"
+}

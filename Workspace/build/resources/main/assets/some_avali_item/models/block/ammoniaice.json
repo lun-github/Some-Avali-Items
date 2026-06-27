@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "some_avali_item:block/ammonia_ice",
+    "particle": "some_avali_item:block/ammonia_ice"
+  },
+  "render_type": "translucent"
+}

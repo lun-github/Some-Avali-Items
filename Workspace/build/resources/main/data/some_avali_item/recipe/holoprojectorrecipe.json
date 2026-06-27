@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "ade",
+    "abc"
+  ],
+  "key": {
+    "a": {
+      "item": "some_avali_item:aerogel"
+    },
+    "b": {
+      "item": "minecraft:redstone"
+    },
+    "c": {
+      "item": "some_avali_item:redstonewire"
+    },
+    "d": {
+      "item": "some_avali_item:graphiterod"
+    },
+    "e": {
+      "item": "some_avali_item:quarzchip"
+    }
+  },
+  "result": {
+    "id": "some_avali_item:holoprojector",
+    "count": 1
+  }
+}

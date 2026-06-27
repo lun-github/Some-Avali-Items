@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "dec",
+    "ecc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:paper"
+    },
+    "b": {
+      "item": "minecraft:iron_ingot"
+    },
+    "c": {
+      "item": "some_avali_item:quarzite"
+    },
+    "d": {
+      "item": "some_avali_item:graphite"
+    },
+    "e": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "result": {
+    "id": "some_avali_item:quarzitedrawing",
+    "count": 1
+  }
+}

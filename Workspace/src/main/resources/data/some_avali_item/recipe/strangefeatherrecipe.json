@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ab",
+    "cda",
+    "dc "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:purple_dye"
+    },
+    "b": {
+      "item": "minecraft:black_dye"
+    },
+    "c": {
+      "item": "minecraft:white_dye"
+    },
+    "d": {
+      "item": "minecraft:feather"
+    }
+  },
+  "result": {
+    "id": "some_avali_item:strangefeather",
+    "count": 1
+  }
+}

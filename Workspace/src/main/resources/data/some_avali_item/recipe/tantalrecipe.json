@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "some_avali_item:tantalnugget"
+    }
+  },
+  "result": {
+    "id": "some_avali_item:tantal",
+    "count": 1
+  }
+}

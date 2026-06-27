@@ -1,0 +1,33 @@
+{
+  "workspacePanelIconSize": "LARGE",
+  "workspacePanelSortType": "CREATED",
+  "workspacePanelSortAscending": true,
+  "projectBrowserSplitPos": 0,
+  "projectBrowserState": {
+    "expandedPaths": [
+      "[, External libraries]",
+      "[, External libraries, Java 21.0.8 SDK]",
+      "[, External libraries, Java 21.0.8 SDK, java.desktop]",
+      "[, External libraries, Java 21.0.8 SDK, java.desktop, javax]",
+      "[, External libraries, Java 21.0.8 SDK, java.desktop, javax, imageio]",
+      "[, External libraries, Java 21.0.8 SDK, java.desktop, javax, imageio, metadata]",
+      "[, External libraries, Java 21.0.8 SDK, java.desktop, javax, swing]",
+      "[, External libraries, Java 21.0.8 SDK, java.desktop, javax, swing, event]",
+      "[, External libraries, Gradle: nashorn-core-15.4]",
+      "[, External libraries, Gradle: nashorn-core-15.4, org]",
+      "[, External libraries, Gradle: nashorn-core-15.4, org, openjdk]",
+      "[, External libraries, Gradle: nashorn-core-15.4, org, openjdk, nashorn]",
+      "[, External libraries, Gradle: nashorn-core-15.4, org, openjdk, nashorn, api]",
+      "[, External libraries, Gradle: nashorn-core-15.4, org, openjdk, nashorn, api, tree]",
+      "[, External libraries, Gradle: nashorn-core-15.4, org, openjdk, nashorn, internal]",
+      "[, External libraries, Gradle: nashorn-core-15.4, org, openjdk, nashorn, internal, runtime]",
+      "[, External libraries, Gradle: nashorn-core-15.4, org, openjdk, nashorn, internal, runtime, doubleconv]",
+      "[, External libraries, Gradle: commons-lang3-3.14.0]",
+      "[, External libraries, Gradle: commons-lang3-3.14.0, org]",
+      "[, External libraries, Gradle: commons-lang3-3.14.0, org, apache]",
+      "[, External libraries, Gradle: commons-lang3-3.14.0, org, apache, commons]",
+      "[, External libraries, Gradle: commons-lang3-3.14.0, org, apache, commons, lang3]",
+      "[, External libraries, Gradle: commons-lang3-3.14.0, org, apache, commons, lang3, math]"
+    ]
+  }
+}

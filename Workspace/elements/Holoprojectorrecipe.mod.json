@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:Aerogel"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Aerogel"
+      },
+      {
+        "value": "Items.REDSTONE"
+      },
+      {
+        "value": "CUSTOM:Redstonewire"
+      },
+      {
+        "value": "CUSTOM:Aerogel"
+      },
+      {
+        "value": "CUSTOM:Graphiterod"
+      },
+      {
+        "value": "CUSTOM:Quarzchip"
+      },
+      {
+        "value": "CUSTOM:Aerogel"
+      },
+      {
+        "value": "Items.REDSTONE"
+      },
+      {
+        "value": "CUSTOM:Redstonewire"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Holoprojector"
+    },
+    "name": "holoprojectorrecipe",
+    "namespace": "mod"
+  }
+}

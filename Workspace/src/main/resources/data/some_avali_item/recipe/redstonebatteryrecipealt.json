@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "some_avali_item:redcrystal"
+    },
+    "b": {
+      "item": "some_avali_item:redstonebatteryempty"
+    }
+  },
+  "result": {
+    "id": "some_avali_item:redstonebattery",
+    "count": 1
+  }
+}

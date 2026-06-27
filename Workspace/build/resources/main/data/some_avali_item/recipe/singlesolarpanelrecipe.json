@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "edf"
+  ],
+  "key": {
+    "a": {
+      "item": "some_avali_item:graphite"
+    },
+    "b": {
+      "item": "minecraft:quartz"
+    },
+    "c": {
+      "item": "some_avali_item:aerogel"
+    },
+    "d": {
+      "item": "minecraft:redstone"
+    },
+    "e": {
+      "item": "some_avali_item:redstonewire"
+    },
+    "f": {
+      "item": "some_avali_item:cadmium"
+    }
+  },
+  "result": {
+    "id": "some_avali_item:singlesolarpanel",
+    "count": 1
+  }
+}

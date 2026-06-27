@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "some_avali_item:blocks/crystalore",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "some_avali_item:roughcrystalore"
+        }
+      ]
+    }
+  ]
+}

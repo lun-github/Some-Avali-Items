@@ -1,0 +1,41 @@
+{
+  "_fv": 79,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Shield",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "aeroshield",
+    "customModelName": "aeroshield_alt_5:default",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "aeroshield",
+    "name": "§6Aeroshield",
+    "specialInformation": {
+      "fixedValue": [
+        "§7= Auto-refuel using §6Aerogel pack§f ="
+      ]
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:SAI"
+      }
+    ],
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 1,
+    "damageVsEntity": 4.0,
+    "usageCount": 256,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": true,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInInventoryTick": {
+      "name": "Aeroshield_inv_tick"
+    }
+  }
+}

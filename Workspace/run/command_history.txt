@@ -1,0 +1,23 @@
+/weather clear
+/give Dev minecraft:command_block
+/debug
+/debugger
+/gamerule keepInventory true
+/setworldspawn
+/time query day
+/iq get 100
+/iq get
+/iq get 0
+/iq set 100
+/iq get 100
+/debugger
+/iq get
+/iq set 5
+/iq set 200
+/iq get
+/
+/setworldspawn
+/debugger
+/tick rate 1
+/tick rate 20
+/time set day

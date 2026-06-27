@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "def"
+  ],
+  "key": {
+    "a": {
+      "item": "some_avali_item:bladedrawing"
+    },
+    "b": {
+      "item": "some_avali_item:aeroprinter"
+    },
+    "c": {
+      "item": "some_avali_item:redstonewire"
+    },
+    "d": {
+      "item": "some_avali_item:redstoneaccumulator"
+    },
+    "e": {
+      "item": "some_avali_item:graphiterod"
+    },
+    "f": {
+      "item": "some_avali_item:aerogelcan"
+    }
+  },
+  "result": {
+    "id": "some_avali_item:aeromer",
+    "count": 1
+  }
+}

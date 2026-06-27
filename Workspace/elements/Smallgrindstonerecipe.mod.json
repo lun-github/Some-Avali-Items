@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "Blocks.STONE#5"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.STONE#6"
+      },
+      {
+        "value": "Items.FLINT"
+      },
+      {
+        "value": "Blocks.STONE#6"
+      },
+      {
+        "value": "Items.FLINT"
+      },
+      {
+        "value": "Blocks.IRON_BLOCK"
+      },
+      {
+        "value": "Items.FLINT"
+      },
+      {
+        "value": "Blocks.STONE#6"
+      },
+      {
+        "value": "Items.FLINT"
+      },
+      {
+        "value": "Blocks.STONE#6"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Smallgrindstone"
+    },
+    "name": "smallgrindstonerecipe",
+    "namespace": "mod"
+  }
+}

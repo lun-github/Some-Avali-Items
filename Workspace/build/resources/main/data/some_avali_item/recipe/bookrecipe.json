@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ab",
+    "cdb",
+    " ab"
+  ],
+  "key": {
+    "a": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "b": {
+      "item": "minecraft:paper"
+    },
+    "c": {
+      "item": "some_avali_item:aeroneedle"
+    },
+    "d": {
+      "item": "some_avali_item:thread"
+    }
+  },
+  "result": {
+    "id": "minecraft:book",
+    "count": 1
+  }
+}

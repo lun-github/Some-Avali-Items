@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "some_avali_item:item/aerohoe_tool"
+  }
+}

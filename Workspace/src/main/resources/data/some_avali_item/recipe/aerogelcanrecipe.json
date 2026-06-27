@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aab",
+    "aca",
+    " aa"
+  ],
+  "key": {
+    "a": {
+      "item": "some_avali_item:aerogelpack"
+    },
+    "b": {
+      "item": "some_avali_item:graphite"
+    },
+    "c": {
+      "item": "some_avali_item:cadmium"
+    }
+  },
+  "result": {
+    "id": "some_avali_item:aerogelcan",
+    "count": 1
+  }
+}

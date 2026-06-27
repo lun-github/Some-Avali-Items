@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "cdb",
+    "ecf"
+  ],
+  "key": {
+    "a": {
+      "item": "some_avali_item:harpoon"
+    },
+    "b": {
+      "item": "some_avali_item:thread"
+    },
+    "c": {
+      "item": "some_avali_item:quarzite"
+    },
+    "d": {
+      "item": "some_avali_item:graphite"
+    },
+    "e": {
+      "item": "some_avali_item:graphiterod"
+    },
+    "f": {
+      "item": "some_avali_item:redstoneaccumulator"
+    }
+  },
+  "result": {
+    "id": "some_avali_item:aerohook",
+    "count": 1
+  }
+}

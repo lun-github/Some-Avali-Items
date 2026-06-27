@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:Aeroprinter"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Bladedrawing"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Aerogelcan"
+      },
+      {
+        "value": "CUSTOM:Bladedrawing"
+      },
+      {
+        "value": "CUSTOM:Redstonewire"
+      },
+      {
+        "value": "CUSTOM:Graphite"
+      },
+      {
+        "value": "CUSTOM:Aeroprinter"
+      },
+      {
+        "value": "CUSTOM:Redstoneaccumulator"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Aeroblade"
+    },
+    "name": "aerobladerecipe",
+    "namespace": "mod"
+  }
+}

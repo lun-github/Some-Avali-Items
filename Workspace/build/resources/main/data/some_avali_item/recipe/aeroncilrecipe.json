@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  a",
+    " a ",
+    "b  "
+  ],
+  "key": {
+    "a": {
+      "item": "some_avali_item:aerogel"
+    },
+    "b": {
+      "item": "some_avali_item:graphiterod"
+    }
+  },
+  "result": {
+    "id": "some_avali_item:aeroncil",
+    "count": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld_rod",
+  "textures": {
+    "layer0": "some_avali_item:item/aerofish_rod"
+  }
+}
