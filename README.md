@@ -1,2 +1,2 @@
 # Some-Avali-Items
-Minecraft mod about avali techs for 1.21.1
+Minecraft mod about avali techs for neoforge 1.21.1
