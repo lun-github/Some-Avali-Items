@@ -3,12 +3,15 @@
   "category": "misc",
   "pattern": [
     " a ",
-    "aaa",
+    "aba",
     " a "
   ],
   "key": {
     "a": {
       "item": "minecraft:redstone_block"
+    },
+    "b": {
+      "item": "minecraft:amethyst_shard"
     }
   },
   "result": {

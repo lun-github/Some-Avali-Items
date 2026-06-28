@@ -4065,6 +4065,10 @@
             "type": "entity"
           },
           {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -4110,6 +4114,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/some_avali_item/models/item/aerohook.json",
+          "src/main/resources/assets/some_avali_item/models/item/aerohook_0.json",
           "src/main/java/net/mcreator/someavaliitem/item/AerohookItem.java"
         ]
       },
@@ -4349,6 +4354,238 @@
         ]
       },
       "path": "~/Procedure"
+    },
+    {
+      "name": "Aerohook_rbm_alt",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerohook_rbm_alt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Aerohook_rbm_altProcedure.java"
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Aerospear_sweep",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerospear_sweep",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Aerospear_sweepProcedure.java"
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Aeromer_inv_tick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeromer_inv_tick",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Aeromer_inv_tickProcedure.java"
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Aerotool_hit",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerotool_hit",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Aerotool_hitProcedure.java"
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Heavyinjury",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavyinjury",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/potion/HeavyinjuryMobEffect.java"
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "Heavy_injury_tick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavy_injury_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "amplifier",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Heavy_injury_tickProcedure.java"
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Heavy_injury_added",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavy_injury_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "amplifier",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Heavy_injury_addedProcedure.java"
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Cuttedbladeparticle",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cuttedbladeparticle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/client/particle/CuttedbladeparticleParticle.java",
+          "src/main/resources/assets/some_avali_item/particles/cuttedbladeparticle.json"
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "Heavy_injury_dead",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavy_injury_dead",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Heavy_injury_deadProcedure.java"
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Heatresistancethread",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heatresistancethread",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/heatresistancethread.json",
+          "src/main/java/net/mcreator/someavaliitem/item/HeatresistancethreadItem.java"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Aerogeldustrecipealt",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerogeldustrecipealt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/recipes/aerogeldustrecipealt.json",
+          "src/main/resources/data/some_avali_item/recipe/aerogeldustrecipealt.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Heatresistancethreadrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heatresistancethreadrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/heatresistancethreadrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
     }
   ],
   "variable_elements": [
@@ -4467,22 +4704,22 @@
       "value": "false"
     },
     {
-      "name": "lastHarpon_x",
+      "name": "hookAutoDetach",
       "type": "number",
       "scope": "player_lifetime",
-      "value": "0.0"
+      "value": "0"
     },
     {
-      "name": "lastHarpon_y",
+      "name": "aeromer_fall_damage",
       "type": "number",
       "scope": "player_lifetime",
-      "value": "0.0"
+      "value": "0"
     },
     {
-      "name": "lastHarpon_z",
+      "name": "aeromer_fall_damage_last",
       "type": "number",
       "scope": "player_lifetime",
-      "value": "0.0"
+      "value": "0"
     }
   ],
   "sound_elements": [],
@@ -4547,10 +4784,12 @@
       "CUSTOM:Aeromerhandle"
     ],
     "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:Aeroiper",
       "~CUSTOM:Aeromerhandle",
       "~CUSTOM:Aeromer",
       "~CUSTOM:Printedpickaxe",
       "~CUSTOM:Aerospearhandle",
+      "~CUSTOM:Aerospear",
       "~CUSTOM:Aeroiperhandle",
       "~CUSTOM:Aerobladehandle",
       "~CUSTOM:Aeroshearhandle",
@@ -4571,8 +4810,6 @@
     "ITEMS:minecraft:swords": [
       "~CUSTOM:Printedsword",
       "~CUSTOM:Aeroknife",
-      "~CUSTOM:Aerospear",
-      "~CUSTOM:Aeroiper",
       "~CUSTOM:Aeroblade"
     ],
     "ITEMS:minecraft:enchantable/fishing": [
@@ -4606,6 +4843,7 @@
     ],
     "ITEMS:minecraft:enchantable/durability": [
       "~CUSTOM:Aeroncil",
+      "~CUSTOM:Aerohook",
       "~CUSTOM:Smallgrindstone",
       "~CUSTOM:Portableprinter",
       "~CUSTOM:Aeroneedle",
@@ -4643,6 +4881,33 @@
     "ITEMS:sai:pencil": [
       "CUSTOM:Pencil",
       "CUSTOM:Aeroncil"
+    ],
+    "ITEMS:sai:heavy_injury": [
+      "CUSTOM:Aeropick",
+      "CUSTOM:Aeroaxe",
+      "CUSTOM:Aeroshovel",
+      "CUSTOM:Aeroshear",
+      "CUSTOM:Aeromer"
+    ],
+    "ITEMS:sai:heavy_injury_2": [
+      "CUSTOM:Aeroblade",
+      "CUSTOM:Aeroiper",
+      "CUSTOM:Aerospear",
+      "CUSTOM:Aerohoe"
+    ],
+    "ITEMS:sai:lava_fishing/common": [
+      "CUSTOM:Obsidianchunk",
+      "CUSTOM:Graphitepeace",
+      "CUSTOM:Quarzpeace",
+      "Items.GOLD_NUGGET"
+    ],
+    "ITEMS:sai:lava_fishing/rare": [
+      "Items.MAGMA_CREAM",
+      "Items.NETHER_WART"
+    ],
+    "ITEMS:sai:lava_fishing/exotic": [
+      "Items.GHAST_TEAR",
+      "Items.BLAZE_ROD"
     ]
   },
   "tab_element_order": {
@@ -4831,7 +5096,7 @@
       "item.some_avali_item.aeroiper.description_5": "",
       "item.some_avali_item.aeroiper.description_6": "§7\u003d 200% damage while above enemy \u003d",
       "item.some_avali_item.aeroiper.description_7": "§7\u003d RBM for parry attack to avoid damage \u003d",
-      "item.some_avali_item.aeroiper.description_8": "§6I have highground!",
+      "item.some_avali_item.aeroiper.description_8": "",
       "item.some_avali_item.aerospearhandle": "§6Aerospear Handle",
       "item.some_avali_item.obsidianchunk": "Obsidian Chunk",
       "item.some_avali_item.graphiterod": "Graphite Rod",
@@ -4853,7 +5118,7 @@
       "item.some_avali_item.aeroshovel.description_0": "§2+ Instead of a tool, breaks blade +",
       "item.some_avali_item.aerosharper": "Aerosharper",
       "item.some_avali_item.aeroshovel.description_3": "",
-      "item.some_avali_item.aerogelcan": "§6Compressed Aerogel Can",
+      "item.some_avali_item.aerogelcan": "§6Compressed Aerogel Tank",
       "item.some_avali_item.aeroshovel.description_2": "§2+ Immune to fire +",
       "item.some_avali_item.aeroaxe.description_3": "",
       "item.some_avali_item.aerogelpack": "§6Aerogel Pack",
@@ -4909,7 +5174,7 @@
       "item.some_avali_item.quarzchip": "Quarz Chip",
       "item.some_avali_item.quarzitedrawing": "Quarzite Drawing",
       "item.some_avali_item.aeroknife": "§6Aeroknife",
-      "item.some_avali_item.aeroknife.description_0": "§7Additional damage \u0026 drop from animal",
+      "item.some_avali_item.aeroknife.description_0": "§7 \u003d Additional damage \u0026 drop from animal \u003d ",
       "item.some_avali_item.margiumchip": "Margium Chip",
       "item.some_avali_item.roughdiamatcrystal": "Rough Diamat Crystal",
       "item.some_avali_item.roughmargiumcrystal": "Rough Margium Crystal",
@@ -4960,17 +5225,40 @@
       "item.some_avali_item.reddot": "Red Dot",
       "block.some_avali_item.chipcutter": "Chip Cutter",
       "gui.some_avali_item.chipcuttergui.label_inventory": "Inventory",
-      "item.some_avali_item.aerohook": "§6Aerohook",
-      "item.some_avali_item.harpoon": "§6Aeropoon",
-      "item.some_avali_item.aerohook.description_0": "§7\u003d Pushes user in sight direction \u003d",
-      "item.some_avali_item.aerohook.description_2": "§7\u003d Reqiure §6Aeropoon§7 to shoot \u003d",
-      "item.some_avali_item.aerohook.description_1": "§7\u003d Attract hitted entity \u003d",
+      "item.some_avali_item.aerohook": "§6Aerook",
+      "item.some_avali_item.harpoon": "§6Aeroon",
+      "item.some_avali_item.aerohook.description_0": "§7\u003d Attract user to hook landing \u003d",
+      "item.some_avali_item.aerohook.description_2": "§7\u003d Consumes §6Aerook §7to attract \u003d",
+      "item.some_avali_item.aerohook.description_1": "§7\u003d Attract hitted Mob \u003d",
       "item.some_avali_item.lapisdot": "Lapis Dot",
       "item.some_avali_item.greendot": "Green Dot",
       "item.some_avali_item.romba_spawn_egg": "Romba Spawn Egg",
       "entity.some_avali_item.romba": "Romba",
       "item.some_avali_item.pencil": "Pencil",
-      "item.some_avali_item.aeroncil": "§6Aeroncil"
+      "item.some_avali_item.aeroncil": "§6Aeroncil",
+      "item.some_avali_item.aerospear.description_1": "§2+ Reprint blade while active +",
+      "item.some_avali_item.aerospear.description_0": "§2+ Instead of a tool, breaks blade +",
+      "item.some_avali_item.aerospear.description_5": "",
+      "item.some_avali_item.aerospear.description_4": "§4- Cannot be enchanted -",
+      "item.some_avali_item.aerospear.description_3": "",
+      "item.some_avali_item.aerospear.description_2": "§2+ Immune to fire +",
+      "item.some_avali_item.aerospear.description_6": "§7\u003d Increased range \u003d",
+      "effect.some_avali_item.heavyinjury": "Heavy Injury",
+      "item.some_avali_item.aeroknife.description_1": "",
+      "item.some_avali_item.aerofishrod.description_3": "",
+      "item.some_avali_item.aeropick.description_7": "",
+      "item.some_avali_item.aeroaxe.description_7": "",
+      "item.some_avali_item.aeroshovel.description_7": "",
+      "item.some_avali_item.aerohoe.description_7": "",
+      "item.some_avali_item.aeroshear.description_5": "",
+      "item.some_avali_item.aeroblade.description_8": "",
+      "item.some_avali_item.aerospear.description_7": "",
+      "item.some_avali_item.portableprinter.description_2": "",
+      "item.some_avali_item.aeroshield.description_1": "",
+      "item.some_avali_item.shieldemmiter.description_1": "",
+      "item.some_avali_item.aeromer.description_8": "",
+      "item.some_avali_item.aerohook.description_3": "",
+      "item.some_avali_item.heatresistancethread": "Heat Resistance Thread"
     }
   },
   "metadata": {
@@ -4981,6 +5269,9 @@
       "src/main/java/net/mcreator/someavaliitem/init/SomeAvaliItemModMenus.java",
       "src/main/java/net/mcreator/someavaliitem/network/MenuStateUpdateMessage.java",
       "src/main/java/net/mcreator/someavaliitem/init/SomeAvaliItemModFuels.java",
+      "src/main/java/net/mcreator/someavaliitem/init/SomeAvaliItemModParticleTypes.java",
+      "src/main/java/net/mcreator/someavaliitem/init/SomeAvaliItemModParticles.java",
+      "src/main/java/net/mcreator/someavaliitem/init/SomeAvaliItemModMobEffects.java",
       "src/main/java/net/mcreator/someavaliitem/init/SomeAvaliItemModBlocks.java",
       "src/main/java/net/mcreator/someavaliitem/init/SomeAvaliItemModBlockEntities.java",
       "src/main/java/net/mcreator/someavaliitem/init/SomeAvaliItemModItems.java",
@@ -5028,13 +5319,17 @@
       {
         "name": "Command",
         "children": []
+      },
+      {
+        "name": "Effects",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "some_avali_item",
     "modName": "SAI",
-    "version": "0.1",
+    "version": "0.2",
     "author": "luv",
     "websiteURL": "https://mcreator.net",
     "license": "MIT License",

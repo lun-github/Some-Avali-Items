@@ -24,6 +24,7 @@ public class ShieldemmiterItem extends Item {
 	public void appendHoverText(ItemStack itemstack, Item.TooltipContext context, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, context, list, flag);
 		list.add(Component.translatable("item.some_avali_item.shieldemmiter.description_0"));
+		list.add(Component.translatable("item.some_avali_item.shieldemmiter.description_1"));
 	}
 
 	@Override

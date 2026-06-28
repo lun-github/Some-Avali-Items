@@ -3,16 +3,19 @@
   "category": "misc",
   "ingredients": [
     {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:wooden_sword"
+    },
+    {
       "tag": "sai:pencil"
-    },
-    {
-      "item": "minecraft:paper"
-    },
-    {
-      "item": "minecraft:paper"
-    },
-    {
-      "item": "minecraft:paper"
     }
   ],
   "result": {

@@ -3,16 +3,22 @@
   "category": "misc",
   "pattern": [
     "a  ",
-    " a ",
-    "  a"
+    " b ",
+    "  c"
   ],
   "key": {
     "a": {
       "item": "some_avali_item:aerogelpack"
+    },
+    "b": {
+      "item": "some_avali_item:aerogel"
+    },
+    "c": {
+      "item": "some_avali_item:graphite"
     }
   },
   "result": {
     "id": "some_avali_item:harpoon",
-    "count": 8
+    "count": 4
   }
 }

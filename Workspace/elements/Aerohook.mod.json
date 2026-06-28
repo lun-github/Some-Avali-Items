@@ -4,12 +4,29 @@
   "definition": {
     "renderType": 0,
     "texture": "harpoon",
-    "customModelName": "Ranged item",
+    "customModelName": "Tool",
     "guiTexture": "",
     "customProperties": {},
-    "states": [],
+    "states": [
+      {
+        "renderType": 0,
+        "texture": "harpoon_unhook",
+        "customModelName": "Tool",
+        "stateMap": [
+          {
+            "property": {
+              "min": 0.0,
+              "max": 1.0,
+              "name": "cooldown",
+              "type": "number"
+            },
+            "value": 0.1
+          }
+        ]
+      }
+    ],
     "animations": [],
-    "name": "§6Aerohook",
+    "name": "§6Aerook",
     "rarity": "COMMON",
     "creativeTabs": [
       {
@@ -18,9 +35,9 @@
     ],
     "stackSize": 1,
     "enchantability": 0,
-    "useDuration": 72000,
+    "useDuration": 256,
     "toolType": 1.0,
-    "damageCount": 0,
+    "damageCount": 256,
     "recipeRemainder": {
       "value": ""
     },
@@ -33,9 +50,10 @@
     "damageVsEntity": 0.0,
     "specialInformation": {
       "fixedValue": [
-        "§7= Pushes user in sight direction =",
-        "§7= Attract hitted entity =",
-        "§7= Reqiure §6Aeropoon§7 to shoot ="
+        "§7= Attract user to hook landing =",
+        "§7= Attract hitted Mob =",
+        "§7= Consumes §6Aerook §7to attract =",
+        ""
       ]
     },
     "glowCondition": {
@@ -46,13 +64,16 @@
     "onItemInInventoryTick": {
       "name": "Aerohook_rbm"
     },
+    "onStoppedUsing": {
+      "name": "Aerohook_rbm_alt"
+    },
     "enableRanged": true,
     "shootConstantly": false,
     "rangedItemChargesPower": false,
     "projectile": {
       "value": "CUSTOM:Hookproj"
     },
-    "projectileDisableAmmoCheck": false,
+    "projectileDisableAmmoCheck": true,
     "isFood": false,
     "nutritionalValue": 4,
     "saturation": 0.3,

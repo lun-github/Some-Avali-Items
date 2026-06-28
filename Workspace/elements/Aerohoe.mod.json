@@ -18,7 +18,8 @@
         "",
         "§4- Cannot be enchanted -",
         "",
-        "§7= Plowing 3x3 ="
+        "§7= Plowing 3x3 =",
+        ""
       ]
     },
     "creativeTabs": [
@@ -27,9 +28,9 @@
       }
     ],
     "efficiency": 15.0,
-    "attackSpeed": 1.0,
+    "attackSpeed": 2.0,
     "enchantability": 1,
-    "damageVsEntity": 5.0,
+    "damageVsEntity": 3.0,
     "usageCount": 256,
     "glowCondition": {
       "fixedValue": false

@@ -34,7 +34,8 @@
     "specialInformation": {
       "fixedValue": [
         "§7= RBM to choose instrument =",
-        "§7= RBM + Shift to print chosen ="
+        "§7= RBM + Shift to print chosen =",
+        ""
       ]
     },
     "glowCondition": {

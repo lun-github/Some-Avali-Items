@@ -61,7 +61,7 @@ public class AerobladeItem extends SwordItem {
 	};
 
 	public AerobladeItem() {
-		super(TOOL_TIER, new Item.Properties().attributes(SwordItem.createAttributes(TOOL_TIER, 6f, -2.4f)).fireResistant());
+		super(TOOL_TIER, new Item.Properties().attributes(SwordItem.createAttributes(TOOL_TIER, 7f, -2.2f)).fireResistant());
 	}
 
 	@Override
@@ -90,6 +90,7 @@ public class AerobladeItem extends SwordItem {
 		list.add(Component.translatable("item.some_avali_item.aeroblade.description_5"));
 		list.add(Component.translatable("item.some_avali_item.aeroblade.description_6"));
 		list.add(Component.translatable("item.some_avali_item.aeroblade.description_7"));
+		list.add(Component.translatable("item.some_avali_item.aeroblade.description_8"));
 	}
 
 	@Override

@@ -2,7 +2,7 @@
   "_fv": 79,
   "_type": "tool",
   "definition": {
-    "toolType": "Sword",
+    "toolType": "Special",
     "renderType": 0,
     "blockingRenderType": 0,
     "texture": "aerospear",
@@ -11,7 +11,16 @@
     "guiTexture": "",
     "name": "§6Aerospear",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§2+ Instead of a tool, breaks blade +",
+        "§2+ Reprint blade while active +",
+        "§2+ Immune to fire +",
+        "",
+        "§4- Cannot be enchanted -",
+        "",
+        "§7= Increased range =",
+        ""
+      ]
     },
     "creativeTabs": [
       {
@@ -19,9 +28,9 @@
       }
     ],
     "efficiency": 15.0,
-    "attackSpeed": 1.1,
+    "attackSpeed": 0.9,
     "enchantability": 1,
-    "damageVsEntity": 10.0,
+    "damageVsEntity": 12.0,
     "usageCount": 256,
     "glowCondition": {
       "fixedValue": false
@@ -41,6 +50,9 @@
     },
     "onItemInUseTick": {
       "name": "Aerotool_hand_tick"
+    },
+    "onEntitySwing": {
+      "name": "Aerospear_sweep"
     }
   }
 }

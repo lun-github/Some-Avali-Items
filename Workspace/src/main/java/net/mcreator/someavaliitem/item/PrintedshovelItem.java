@@ -13,7 +13,7 @@ public class PrintedshovelItem extends ShovelItem {
 	private static final Tier TOOL_TIER = new Tier() {
 		@Override
 		public int getUses() {
-			return 64;
+			return 32;
 		}
 
 		@Override

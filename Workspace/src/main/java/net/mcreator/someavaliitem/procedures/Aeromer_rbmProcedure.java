@@ -22,7 +22,7 @@ public class Aeromer_rbmProcedure {
 			if (entity instanceof Player _player)
 				_player.getCooldowns().addCooldown(itemstack.getItem(), 120);
 			if (world instanceof ServerLevel _level) {
-				itemstack.hurtAndBreak(1, _level, null, _stkprov -> {
+				itemstack.hurtAndBreak(10, _level, null, _stkprov -> {
 				});
 			}
 		} else if ((entity.level().clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(10)), ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, entity)).getDirection()) == Direction.DOWN
@@ -31,7 +31,7 @@ public class Aeromer_rbmProcedure {
 			if (entity instanceof Player _player)
 				_player.getCooldowns().addCooldown(itemstack.getItem(), 120);
 			if (world instanceof ServerLevel _level) {
-				itemstack.hurtAndBreak(1, _level, null, _stkprov -> {
+				itemstack.hurtAndBreak(10, _level, null, _stkprov -> {
 				});
 			}
 		} else if ((entity.level().clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(10)), ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, entity)).getDirection()) == Direction.NORTH
@@ -40,7 +40,7 @@ public class Aeromer_rbmProcedure {
 			if (entity instanceof Player _player)
 				_player.getCooldowns().addCooldown(itemstack.getItem(), 120);
 			if (world instanceof ServerLevel _level) {
-				itemstack.hurtAndBreak(1, _level, null, _stkprov -> {
+				itemstack.hurtAndBreak(10, _level, null, _stkprov -> {
 				});
 			}
 		} else if ((entity.level().clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(10)), ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, entity)).getDirection()) == Direction.SOUTH
@@ -49,7 +49,7 @@ public class Aeromer_rbmProcedure {
 			if (entity instanceof Player _player)
 				_player.getCooldowns().addCooldown(itemstack.getItem(), 120);
 			if (world instanceof ServerLevel _level) {
-				itemstack.hurtAndBreak(1, _level, null, _stkprov -> {
+				itemstack.hurtAndBreak(10, _level, null, _stkprov -> {
 				});
 			}
 		} else if ((entity.level().clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(10)), ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, entity)).getDirection()) == Direction.WEST
@@ -58,7 +58,7 @@ public class Aeromer_rbmProcedure {
 			if (entity instanceof Player _player)
 				_player.getCooldowns().addCooldown(itemstack.getItem(), 120);
 			if (world instanceof ServerLevel _level) {
-				itemstack.hurtAndBreak(1, _level, null, _stkprov -> {
+				itemstack.hurtAndBreak(10, _level, null, _stkprov -> {
 				});
 			}
 		} else if ((entity.level().clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(10)), ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, entity)).getDirection()) == Direction.EAST
@@ -67,7 +67,7 @@ public class Aeromer_rbmProcedure {
 			if (entity instanceof Player _player)
 				_player.getCooldowns().addCooldown(itemstack.getItem(), 120);
 			if (world instanceof ServerLevel _level) {
-				itemstack.hurtAndBreak(1, _level, null, _stkprov -> {
+				itemstack.hurtAndBreak(10, _level, null, _stkprov -> {
 				});
 			}
 		}

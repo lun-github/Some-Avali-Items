@@ -55,7 +55,7 @@ public class AeropickItem extends PickaxeItem {
 	};
 
 	public AeropickItem() {
-		super(TOOL_TIER, new Item.Properties().attributes(DiggerItem.createAttributes(TOOL_TIER, 6f, -2.8f)).fireResistant());
+		super(TOOL_TIER, new Item.Properties().attributes(DiggerItem.createAttributes(TOOL_TIER, 5f, -2.6f)).fireResistant());
 	}
 
 	@Override
@@ -76,6 +76,7 @@ public class AeropickItem extends PickaxeItem {
 		list.add(Component.translatable("item.some_avali_item.aeropick.description_4"));
 		list.add(Component.translatable("item.some_avali_item.aeropick.description_5"));
 		list.add(Component.translatable("item.some_avali_item.aeropick.description_6"));
+		list.add(Component.translatable("item.some_avali_item.aeropick.description_7"));
 	}
 
 	@Override

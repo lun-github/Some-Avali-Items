@@ -1,0 +1,33 @@
+{
+  "_fv": 79,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Heavy Injury",
+    "icon": "heavyinjury",
+    "color": {
+      "value": -26368,
+      "falpha": 0.0
+    },
+    "particle": {
+      "value": "CUSTOM:Cuttedbladeparticle"
+    },
+    "onAddedSound": {
+      "value": ""
+    },
+    "isInstant": false,
+    "mobEffectCategory": "NEUTRAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [],
+    "onStarted": {
+      "name": "Heavy_injury_added"
+    },
+    "onMobHurt": {
+      "name": "Heavy_injury_tick"
+    },
+    "onMobRemoved": {
+      "name": "Heavy_injury_dead"
+    }
+  }
+}

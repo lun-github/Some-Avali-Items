@@ -44,7 +44,9 @@ public class SomeAvaliItemMod {
 		SomeAvaliItemModEntities.REGISTRY.register(modEventBus);
 		SomeAvaliItemModTabs.REGISTRY.register(modEventBus);
 		SomeAvaliItemModVariables.ATTACHMENT_TYPES.register(modEventBus);
+		SomeAvaliItemModMobEffects.REGISTRY.register(modEventBus);
 		SomeAvaliItemModMenus.REGISTRY.register(modEventBus);
+		SomeAvaliItemModParticleTypes.REGISTRY.register(modEventBus);
 		SomeAvaliItemModFluids.REGISTRY.register(modEventBus);
 		SomeAvaliItemModFluidTypes.REGISTRY.register(modEventBus);
 		// Start of user code block mod init

@@ -29,7 +29,8 @@
     "damageVsEntity": 0.0,
     "specialInformation": {
       "fixedValue": [
-        "§7= Auto-forms shield back using §6Aerogel pack§f ="
+        "§7= Auto-forms shield back using §6Aerogel pack§f =",
+        ""
       ]
     },
     "glowCondition": {

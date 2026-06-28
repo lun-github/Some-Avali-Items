@@ -86,9 +86,9 @@ public class SomeAvaliItemModVariables {
 			clone.harpon_y = original.harpon_y;
 			clone.harpon_z = original.harpon_z;
 			clone.ishooked = original.ishooked;
-			clone.lastHarpon_x = original.lastHarpon_x;
-			clone.lastHarpon_y = original.lastHarpon_y;
-			clone.lastHarpon_z = original.lastHarpon_z;
+			clone.hookAutoDetach = original.hookAutoDetach;
+			clone.aeromer_fall_damage = original.aeromer_fall_damage;
+			clone.aeromer_fall_damage_last = original.aeromer_fall_damage_last;
 		}
 		event.getEntity().setData(PLAYER_VARIABLES, clone);
 	}
@@ -114,9 +114,9 @@ public class SomeAvaliItemModVariables {
 		public double harpon_y = 0;
 		public double harpon_z = 0;
 		public boolean ishooked = false;
-		public double lastHarpon_x = 0.0;
-		public double lastHarpon_y = 0.0;
-		public double lastHarpon_z = 0.0;
+		public double hookAutoDetach = 0;
+		public double aeromer_fall_damage = 0;
+		public double aeromer_fall_damage_last = 0;
 
 		@Override
 		public CompoundTag serializeNBT(HolderLookup.Provider lookupProvider) {
@@ -140,9 +140,9 @@ public class SomeAvaliItemModVariables {
 			nbt.putDouble("harpon_y", harpon_y);
 			nbt.putDouble("harpon_z", harpon_z);
 			nbt.putBoolean("ishooked", ishooked);
-			nbt.putDouble("lastHarpon_x", lastHarpon_x);
-			nbt.putDouble("lastHarpon_y", lastHarpon_y);
-			nbt.putDouble("lastHarpon_z", lastHarpon_z);
+			nbt.putDouble("hookAutoDetach", hookAutoDetach);
+			nbt.putDouble("aeromer_fall_damage", aeromer_fall_damage);
+			nbt.putDouble("aeromer_fall_damage_last", aeromer_fall_damage_last);
 			return nbt;
 		}
 
@@ -167,9 +167,9 @@ public class SomeAvaliItemModVariables {
 			harpon_y = nbt.getDouble("harpon_y");
 			harpon_z = nbt.getDouble("harpon_z");
 			ishooked = nbt.getBoolean("ishooked");
-			lastHarpon_x = nbt.getDouble("lastHarpon_x");
-			lastHarpon_y = nbt.getDouble("lastHarpon_y");
-			lastHarpon_z = nbt.getDouble("lastHarpon_z");
+			hookAutoDetach = nbt.getDouble("hookAutoDetach");
+			aeromer_fall_damage = nbt.getDouble("aeromer_fall_damage");
+			aeromer_fall_damage_last = nbt.getDouble("aeromer_fall_damage_last");
 		}
 
 		public void markSyncDirty() {

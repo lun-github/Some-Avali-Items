@@ -54,7 +54,7 @@ public class AerohoeItem extends HoeItem {
 	};
 
 	public AerohoeItem() {
-		super(TOOL_TIER, new Item.Properties().attributes(DiggerItem.createAttributes(TOOL_TIER, 4f, -3f)));
+		super(TOOL_TIER, new Item.Properties().attributes(DiggerItem.createAttributes(TOOL_TIER, 2f, -2f)));
 	}
 
 	@Override
@@ -68,6 +68,7 @@ public class AerohoeItem extends HoeItem {
 		list.add(Component.translatable("item.some_avali_item.aerohoe.description_4"));
 		list.add(Component.translatable("item.some_avali_item.aerohoe.description_5"));
 		list.add(Component.translatable("item.some_avali_item.aerohoe.description_6"));
+		list.add(Component.translatable("item.some_avali_item.aerohoe.description_7"));
 	}
 
 	@Override

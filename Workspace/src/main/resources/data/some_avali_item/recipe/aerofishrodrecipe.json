@@ -4,19 +4,22 @@
   "pattern": [
     "  a",
     " ab",
-    "cd "
+    "cde"
   ],
   "key": {
     "a": {
       "item": "some_avali_item:aerogelpack"
     },
     "b": {
-      "item": "some_avali_item:thread"
+      "item": "some_avali_item:heatresistancethread"
     },
     "c": {
       "item": "some_avali_item:graphiterod"
     },
     "d": {
+      "item": "minecraft:iron_ingot"
+    },
+    "e": {
       "item": "some_avali_item:graphite"
     }
   },

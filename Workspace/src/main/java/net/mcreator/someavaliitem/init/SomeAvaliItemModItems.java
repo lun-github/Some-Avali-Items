@@ -147,6 +147,7 @@ public class SomeAvaliItemModItems {
 	public static final DeferredItem<Item> ROMBA_SPAWN_EGG;
 	public static final DeferredItem<Item> PENCIL;
 	public static final DeferredItem<Item> AERONCIL;
+	public static final DeferredItem<Item> HEATRESISTANCETHREAD;
 	static {
 		AEROGEL = REGISTRY.register("aerogel", AerogelItem::new);
 		GRAPHITE = REGISTRY.register("graphite", GraphiteItem::new);
@@ -266,6 +267,7 @@ public class SomeAvaliItemModItems {
 		ROMBA_SPAWN_EGG = REGISTRY.register("romba_spawn_egg", () -> new DeferredSpawnEggItem(SomeAvaliItemModEntities.ROMBA, -1, -1, new Item.Properties()));
 		PENCIL = REGISTRY.register("pencil", PencilItem::new);
 		AERONCIL = REGISTRY.register("aeroncil", AeroncilItem::new);
+		HEATRESISTANCETHREAD = REGISTRY.register("heatresistancethread", HeatresistancethreadItem::new);
 	}
 
 	// Start of user code block custom items

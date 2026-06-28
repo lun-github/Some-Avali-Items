@@ -18,7 +18,8 @@
         "",
         "§4- Cannot be enchanted -",
         "",
-        "§7= Automatically digs up falling blocks ="
+        "§7= Automatically digs up falling blocks =",
+        ""
       ]
     },
     "creativeTabs": [
@@ -27,9 +28,9 @@
       }
     ],
     "efficiency": 15.0,
-    "attackSpeed": 1.0,
+    "attackSpeed": 1.2000000000000002,
     "enchantability": 1,
-    "damageVsEntity": 7.0,
+    "damageVsEntity": 6.5,
     "usageCount": 256,
     "glowCondition": {
       "fixedValue": false

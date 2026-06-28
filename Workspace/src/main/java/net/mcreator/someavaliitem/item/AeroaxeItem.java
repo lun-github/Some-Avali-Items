@@ -53,7 +53,7 @@ public class AeroaxeItem extends AxeItem {
 	};
 
 	public AeroaxeItem() {
-		super(TOOL_TIER, new Item.Properties().attributes(DiggerItem.createAttributes(TOOL_TIER, 10f, -3.1f)).fireResistant());
+		super(TOOL_TIER, new Item.Properties().attributes(DiggerItem.createAttributes(TOOL_TIER, 9f, -2.9f)).fireResistant());
 	}
 
 	@Override
@@ -74,6 +74,7 @@ public class AeroaxeItem extends AxeItem {
 		list.add(Component.translatable("item.some_avali_item.aeroaxe.description_4"));
 		list.add(Component.translatable("item.some_avali_item.aeroaxe.description_5"));
 		list.add(Component.translatable("item.some_avali_item.aeroaxe.description_6"));
+		list.add(Component.translatable("item.some_avali_item.aeroaxe.description_7"));
 	}
 
 	@Override

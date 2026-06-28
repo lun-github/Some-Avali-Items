@@ -21,3 +21,19 @@
 /tick rate 1
 /tick rate 20
 /time set day
+/attribute Dev minecraft:player.block_interaction_range get
+/help
+/data get entity Dev SelectedItem
+/effect give Dev some_avali_item:heavyinjury
+/clear Dev
+/attribute Dev minecraft:generic.max_health base set 20
+/attribute Dev minecraft:generic.max_health get
+/attribute Dev minecraft:generic.max_health base get
+/attribute Dev minecraft:generic.max_health base set 20
+/attribute Dev minecraft:generic.max_health base get
+/attribute Dev minecraft:generic.max_health modifier remove
+/kill
+/effect give Dev some_avali_item:heavyinjury 10
+/effect give Dev some_avali_item:heavyinjury 14
+/effect give Dev some_avali_item:heavyinjury 20 2
+/effect give Dev some_avali_item:heavyinjury 30 0

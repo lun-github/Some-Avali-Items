@@ -12,12 +12,10 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.item.enchantment.Enchantments;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.projectile.FishingHook;
-import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.BlockPos;
@@ -49,8 +47,8 @@ public class AerofishingtickProcedure {
 				|| (entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem() == SomeAvaliItemModItems.AEROFISHROD.get())
 				&& !world.getEntitiesOfClass(FishingHook.class, new AABB(Vec3.ZERO, Vec3.ZERO).move(new Vec3(x, y, z)).inflate(19 / 2d), e -> true).isEmpty()) {
 			fish_timer = 400;
-			catch_factor = 1 + (entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getEnchantmentLevel(world.registryAccess().lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.LURE)) * 2;
-			catch_factor = 1 + (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getEnchantmentLevel(world.registryAccess().lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.LURE)) * 2;
+			catch_factor = 1 + (entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getEnchantmentLevel(world.registryAccess().lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.LURE)) * 1;
+			catch_factor = 1 + (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getEnchantmentLevel(world.registryAccess().lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.LURE)) * 1;
 			if ((findEntityInWorldRange(world, FishingHook.class, x, y, z, 19)).isInLava()) {
 				(findEntityInWorldRange(world, FishingHook.class, x, y, z, 19)).push(0, 0.03, 0);
 			}
@@ -77,7 +75,7 @@ public class AerofishingtickProcedure {
 				} else {
 					{
 						SomeAvaliItemModVariables.PlayerVariables _vars = entity.getData(SomeAvaliItemModVariables.PLAYER_VARIABLES);
-						_vars.aerofishing_timer = fish_timer + 20;
+						_vars.aerofishing_timer = fish_timer + 40;
 						_vars.markSyncDirty();
 					}
 					if (world instanceof Level _level) {
@@ -88,8 +86,6 @@ public class AerofishingtickProcedure {
 						}
 					}
 					(findEntityInWorldRange(world, FishingHook.class, x, y, z, 19)).push(0, (-0.06), 0);
-					if (entity instanceof Player _player && !_player.level().isClientSide())
-						_player.displayClientMessage(Component.literal("FISH"), true);
 				}
 			} else {
 				{

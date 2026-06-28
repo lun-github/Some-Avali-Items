@@ -12,7 +12,8 @@
     "name": "§6Aeroshield",
     "specialInformation": {
       "fixedValue": [
-        "§7= Auto-refuel using §6Aerogel pack§f ="
+        "§7= Auto-refuel using §6Aerogel pack§f =",
+        ""
       ]
     },
     "creativeTabs": [

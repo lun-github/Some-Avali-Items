@@ -2,7 +2,7 @@
   "_fv": 79,
   "_type": "tool",
   "definition": {
-    "toolType": "Sword",
+    "toolType": "Special",
     "renderType": 0,
     "blockingRenderType": 0,
     "texture": "aeroraiper",
@@ -19,7 +19,8 @@
         "§4- Cannot be enchanted -",
         "",
         "§7= 200% damage while above enemy =",
-        "§7= RBM for parry attack to avoid damage ="
+        "§7= RBM for parry attack to avoid damage =",
+        ""
       ]
     },
     "creativeTabs": [
@@ -28,7 +29,7 @@
       }
     ],
     "efficiency": 15.0,
-    "attackSpeed": 2.7,
+    "attackSpeed": 2.6,
     "enchantability": 1,
     "damageVsEntity": 5.0,
     "usageCount": 256,

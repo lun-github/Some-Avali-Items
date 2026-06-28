@@ -20,6 +20,7 @@ import net.minecraft.core.BlockPos;
 import net.mcreator.someavaliitem.procedures.Aerotool_hand_tickProcedure;
 import net.mcreator.someavaliitem.procedures.Aeropick_block_destroyedProcedure;
 import net.mcreator.someavaliitem.procedures.Aeromer_rbmProcedure;
+import net.mcreator.someavaliitem.procedures.Aeromer_inv_tickProcedure;
 import net.mcreator.someavaliitem.init.SomeAvaliItemModItems;
 
 import java.util.List;
@@ -58,7 +59,7 @@ public class AeromerItem extends PickaxeItem {
 	};
 
 	public AeromerItem() {
-		super(TOOL_TIER, new Item.Properties().attributes(DiggerItem.createAttributes(TOOL_TIER, 13f, -3.4f)).fireResistant());
+		super(TOOL_TIER, new Item.Properties().attributes(DiggerItem.createAttributes(TOOL_TIER, 7f, -3.4f)).fireResistant());
 	}
 
 	@Override
@@ -80,6 +81,7 @@ public class AeromerItem extends PickaxeItem {
 		list.add(Component.translatable("item.some_avali_item.aeromer.description_5"));
 		list.add(Component.translatable("item.some_avali_item.aeromer.description_6"));
 		list.add(Component.translatable("item.some_avali_item.aeromer.description_7"));
+		list.add(Component.translatable("item.some_avali_item.aeromer.description_8"));
 	}
 
 	@Override
@@ -94,5 +96,6 @@ public class AeromerItem extends PickaxeItem {
 		super.inventoryTick(itemstack, world, entity, slot, selected);
 		if (selected)
 			Aerotool_hand_tickProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity, itemstack);
+		Aeromer_inv_tickProcedure.execute();
 	}
 }

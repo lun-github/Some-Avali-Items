@@ -2,25 +2,25 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "abc",
-    "dec",
-    "ecc"
+    "abb",
+    "cdb",
+    "e  "
   ],
   "key": {
     "a": {
       "item": "minecraft:paper"
     },
     "b": {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:quartz"
     },
     "c": {
-      "item": "some_avali_item:quarzite"
+      "item": "minecraft:iron_ingot"
     },
     "d": {
-      "item": "some_avali_item:graphite"
+      "item": "some_avali_item:quarzite"
     },
     "e": {
-      "item": "minecraft:quartz"
+      "tag": "sai:pencil"
     }
   },
   "result": {

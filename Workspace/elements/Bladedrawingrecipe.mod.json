@@ -17,19 +17,19 @@
     "recipeShapeless": true,
     "recipeSlots": [
       {
+        "value": "Items.PAPER"
+      },
+      {
+        "value": "Items.PAPER"
+      },
+      {
+        "value": "Items.PAPER"
+      },
+      {
+        "value": "Items.WOODEN_SWORD"
+      },
+      {
         "value": "TAG:sai:pencil"
-      },
-      {
-        "value": "Items.PAPER"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.PAPER"
-      },
-      {
-        "value": "Items.PAPER"
       },
       {
         "value": ""

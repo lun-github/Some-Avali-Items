@@ -12,8 +12,12 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.util.RandomSource;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.Registries;
+import net.minecraft.core.registries.BuiltInRegistries;
 
 import net.mcreator.someavaliitem.network.SomeAvaliItemModVariables;
 import net.mcreator.someavaliitem.init.SomeAvaliItemModItems;
@@ -38,34 +42,44 @@ public class AerofishingProcedure {
 			return;
 		double luck = 0;
 		double random = 0;
+		double common_chance = 0;
+		double rare_chance = 0;
+		double exotic_chance = 0;
 		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == SomeAvaliItemModItems.AEROFISHROD.get()
 				|| (entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem() == SomeAvaliItemModItems.AEROFISHROD.get()) {
 			if (entity.getData(SomeAvaliItemModVariables.PLAYER_VARIABLES).aerofishing_timer > 400) {
-				luck = (entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getEnchantmentLevel(world.registryAccess().lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.LUCK_OF_THE_SEA)) / 100;
-				luck = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getEnchantmentLevel(world.registryAccess().lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.LUCK_OF_THE_SEA)) / 100;
-				random = Math.random();
-				if (random <= 0.01 + luck) {
+				luck = 0;
+				common_chance = 100 - 50;
+				rare_chance = 100 - 20;
+				exotic_chance = 100 - 5;
+				luck = (entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getEnchantmentLevel(world.registryAccess().lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.LUCK_OF_THE_SEA)) * 0.05;
+				luck = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getEnchantmentLevel(world.registryAccess().lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.LUCK_OF_THE_SEA)) * 0.05;
+				random = (Math.random() + luck) * 100;
+				if (random >= exotic_chance) {
 					if (world instanceof ServerLevel _level) {
-						ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(Items.NETHERITE_SCRAP));
-						entityToSpawn.setPickUpDelay(10);
+						ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack((BuiltInRegistries.ITEM.getOrCreateTag(ItemTags.create(ResourceLocation.parse("sai:lava_fishing/exotic"))).getRandomElement(RandomSource.create())
+								.orElseGet(() -> BuiltInRegistries.ITEM.wrapAsHolder(Items.AIR)).value())));
+						entityToSpawn.setPickUpDelay(1);
 						_level.addFreshEntity(entityToSpawn);
 					}
-				} else if (random > 0.2 && random <= 0.2 + luck * 3 + 0.1) {
+				} else if (random >= rare_chance) {
 					if (world instanceof ServerLevel _level) {
-						ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(Items.MAGMA_CREAM));
-						entityToSpawn.setPickUpDelay(10);
+						ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack((BuiltInRegistries.ITEM.getOrCreateTag(ItemTags.create(ResourceLocation.parse("sai:lava_fishing/rare"))).getRandomElement(RandomSource.create())
+								.orElseGet(() -> BuiltInRegistries.ITEM.wrapAsHolder(Items.AIR)).value())));
+						entityToSpawn.setPickUpDelay(1);
 						_level.addFreshEntity(entityToSpawn);
 					}
-				} else if (random > 0.4 && random <= 0.4 + luck * 2 + 0.03) {
+				} else if (random >= common_chance) {
 					if (world instanceof ServerLevel _level) {
-						ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(Items.GHAST_TEAR));
-						entityToSpawn.setPickUpDelay(10);
+						ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack((BuiltInRegistries.ITEM.getOrCreateTag(ItemTags.create(ResourceLocation.parse("sai:lava_fishing/common"))).getRandomElement(RandomSource.create())
+								.orElseGet(() -> BuiltInRegistries.ITEM.wrapAsHolder(Items.AIR)).value())));
+						entityToSpawn.setPickUpDelay(1);
 						_level.addFreshEntity(entityToSpawn);
 					}
 				} else {
 					if (world instanceof ServerLevel _level) {
 						ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(SomeAvaliItemModItems.OBSIDIANCHUNK.get()));
-						entityToSpawn.setPickUpDelay(10);
+						entityToSpawn.setPickUpDelay(1);
 						_level.addFreshEntity(entityToSpawn);
 					}
 				}

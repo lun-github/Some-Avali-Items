@@ -8,6 +8,7 @@
     "texture": "shears",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
+    "guiTexture": "",
     "name": "§6Aeroshear",
     "specialInformation": {
       "fixedValue": [
@@ -15,7 +16,8 @@
         "§2+ Reprint blade while active +",
         "§2+ Immune to fire +",
         "",
-        "§4- Cannot be enchanted -"
+        "§4- Cannot be enchanted -",
+        ""
       ]
     },
     "creativeTabs": [

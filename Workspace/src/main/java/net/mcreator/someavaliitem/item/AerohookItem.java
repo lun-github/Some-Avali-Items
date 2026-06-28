@@ -5,7 +5,6 @@ import net.neoforged.api.distmarker.Dist;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.TooltipFlag;
-import net.minecraft.world.item.ProjectileWeaponItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.projectile.AbstractArrow;
@@ -18,6 +17,7 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.network.chat.Component;
 
+import net.mcreator.someavaliitem.procedures.Aerohook_rbm_altProcedure;
 import net.mcreator.someavaliitem.procedures.Aerohook_rbmProcedure;
 import net.mcreator.someavaliitem.entity.HookprojEntity;
 
@@ -25,12 +25,12 @@ import java.util.List;
 
 public class AerohookItem extends Item {
 	public AerohookItem() {
-		super(new Item.Properties().stacksTo(1).fireResistant());
+		super(new Item.Properties().durability(256).fireResistant());
 	}
 
 	@Override
 	public int getUseDuration(ItemStack itemstack, LivingEntity livingEntity) {
-		return 72000;
+		return 256;
 	}
 
 	@Override
@@ -40,6 +40,7 @@ public class AerohookItem extends Item {
 		list.add(Component.translatable("item.some_avali_item.aerohook.description_0"));
 		list.add(Component.translatable("item.some_avali_item.aerohook.description_1"));
 		list.add(Component.translatable("item.some_avali_item.aerohook.description_2"));
+		list.add(Component.translatable("item.some_avali_item.aerohook.description_3"));
 	}
 
 	@Override
@@ -55,15 +56,17 @@ public class AerohookItem extends Item {
 	@Override
 	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 		super.inventoryTick(itemstack, world, entity, slot, selected);
-		Aerohook_rbmProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity);
+		Aerohook_rbmProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity, itemstack);
 	}
 
 	@Override
 	public void releaseUsing(ItemStack itemstack, Level world, LivingEntity entity, int time) {
+		Aerohook_rbm_altProcedure.execute(entity, itemstack);
 		if (!world.isClientSide() && entity instanceof ServerPlayer player) {
 			ItemStack stack = findAmmo(player);
 			if (player.getAbilities().instabuild || stack != ItemStack.EMPTY) {
 				HookprojEntity projectile = HookprojEntity.shoot(world, entity, world.getRandom());
+				itemstack.hurtAndBreak(1, entity, LivingEntity.getSlotForHand(entity.getUsedItemHand()));
 				if (player.getAbilities().instabuild) {
 					projectile.pickup = AbstractArrow.Pickup.CREATIVE_ONLY;
 				} else {
@@ -80,16 +83,6 @@ public class AerohookItem extends Item {
 	}
 
 	private ItemStack findAmmo(Player player) {
-		ItemStack stack = ProjectileWeaponItem.getHeldProjectile(player, e -> e.getItem() == HookprojEntity.PROJECTILE_ITEM.getItem());
-		if (stack == ItemStack.EMPTY) {
-			for (int i = 0; i < player.getInventory().items.size(); i++) {
-				ItemStack teststack = player.getInventory().items.get(i);
-				if (teststack != null && teststack.getItem() == HookprojEntity.PROJECTILE_ITEM.getItem()) {
-					stack = teststack;
-					break;
-				}
-			}
-		}
-		return stack;
+		return new ItemStack(HookprojEntity.PROJECTILE_ITEM.getItem());
 	}
 }

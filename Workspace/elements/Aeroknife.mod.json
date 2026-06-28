@@ -12,7 +12,8 @@
     "name": "§6Aeroknife",
     "specialInformation": {
       "fixedValue": [
-        "§7Additional damage & drop from animal"
+        "§7 = Additional damage & drop from animal = ",
+        ""
       ]
     },
     "creativeTabs": [

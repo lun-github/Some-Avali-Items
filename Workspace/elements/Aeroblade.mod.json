@@ -19,7 +19,8 @@
         "§4- Cannot be enchanted -",
         "",
         "§7= RBM to clear all effect while in rush =",
-        "§7= Increases damage from attack rush ="
+        "§7= Increases damage from attack rush =",
+        ""
       ]
     },
     "creativeTabs": [
@@ -28,9 +29,9 @@
       }
     ],
     "efficiency": 15.0,
-    "attackSpeed": 1.5999999999999999,
+    "attackSpeed": 1.8,
     "enchantability": 1,
-    "damageVsEntity": 7.0,
+    "damageVsEntity": 8.0,
     "usageCount": 256,
     "glowCondition": {
       "fixedValue": false

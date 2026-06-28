@@ -30,6 +30,7 @@ public class PortableprinterItem extends Item {
 		super.appendHoverText(itemstack, context, list, flag);
 		list.add(Component.translatable("item.some_avali_item.portableprinter.description_0"));
 		list.add(Component.translatable("item.some_avali_item.portableprinter.description_1"));
+		list.add(Component.translatable("item.some_avali_item.portableprinter.description_2"));
 	}
 
 	@Override

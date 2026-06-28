@@ -3,7 +3,7 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 8,
+    "recipeRetstackSize": 4,
     "group": "",
     "unlockingItems": [
       {
@@ -29,7 +29,7 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:Aerogelpack"
+        "value": "CUSTOM:Aerogel"
       },
       {
         "value": ""
@@ -41,7 +41,7 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:Aerogelpack"
+        "value": "CUSTOM:Graphite"
       }
     ],
     "recipeReturnStack": {

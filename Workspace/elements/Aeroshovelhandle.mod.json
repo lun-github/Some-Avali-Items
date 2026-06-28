@@ -8,6 +8,7 @@
     "texture": "aeroshovel_tool",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
+    "guiTexture": "",
     "name": "§6Aeroshovel Handle",
     "specialInformation": {
       "fixedValue": [

@@ -5,7 +5,7 @@ import net.minecraft.world.item.Item;
 
 public class AeroncilItem extends Item {
 	public AeroncilItem() {
-		super(new Item.Properties().durability(64));
+		super(new Item.Properties().durability(64).fireResistant());
 	}
 
 	@Override

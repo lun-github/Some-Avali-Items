@@ -36,5 +36,6 @@ public class AerofishrodItem extends FishingRodItem {
 		list.add(Component.translatable("item.some_avali_item.aerofishrod.description_0"));
 		list.add(Component.translatable("item.some_avali_item.aerofishrod.description_1"));
 		list.add(Component.translatable("item.some_avali_item.aerofishrod.description_2"));
+		list.add(Component.translatable("item.some_avali_item.aerofishrod.description_3"));
 	}
 }

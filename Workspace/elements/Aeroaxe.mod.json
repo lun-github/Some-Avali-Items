@@ -18,7 +18,8 @@
         "",
         "§4- Cannot be enchanted -",
         "",
-        "§7= 50% chance of injury enemy ="
+        "§7= 50% chance of injury enemy =",
+        ""
       ]
     },
     "creativeTabs": [
@@ -27,9 +28,9 @@
       }
     ],
     "efficiency": 15.0,
-    "attackSpeed": 0.9,
+    "attackSpeed": 1.1,
     "enchantability": 1,
-    "damageVsEntity": 11.0,
+    "damageVsEntity": 10.0,
     "usageCount": 256,
     "glowCondition": {
       "fixedValue": false

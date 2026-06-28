@@ -40,6 +40,7 @@ public class AeroshearItem extends ShearsItem {
 		list.add(Component.translatable("item.some_avali_item.aeroshear.description_2"));
 		list.add(Component.translatable("item.some_avali_item.aeroshear.description_3"));
 		list.add(Component.translatable("item.some_avali_item.aeroshear.description_4"));
+		list.add(Component.translatable("item.some_avali_item.aeroshear.description_5"));
 	}
 
 	@Override

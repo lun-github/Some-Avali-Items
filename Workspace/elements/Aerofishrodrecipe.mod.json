@@ -32,16 +32,16 @@
         "value": "CUSTOM:Aerogelpack"
       },
       {
-        "value": "CUSTOM:Thread"
+        "value": "CUSTOM:Heatresistancethread"
       },
       {
         "value": "CUSTOM:Graphiterod"
       },
       {
-        "value": "CUSTOM:Graphite"
+        "value": "Items.IRON_INGOT"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Graphite"
       }
     ],
     "recipeReturnStack": {

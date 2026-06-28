@@ -7,7 +7,7 @@ import net.minecraft.world.item.Item;
 
 public class PrintedshearItem extends ShearsItem {
 	public PrintedshearItem() {
-		super(new Item.Properties().durability(64).fireResistant());
+		super(new Item.Properties().durability(32).fireResistant());
 	}
 
 	@Override

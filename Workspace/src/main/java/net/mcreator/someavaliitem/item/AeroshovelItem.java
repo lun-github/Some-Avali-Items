@@ -55,7 +55,7 @@ public class AeroshovelItem extends ShovelItem {
 	};
 
 	public AeroshovelItem() {
-		super(TOOL_TIER, new Item.Properties().attributes(DiggerItem.createAttributes(TOOL_TIER, 6f, -3f)).fireResistant());
+		super(TOOL_TIER, new Item.Properties().attributes(DiggerItem.createAttributes(TOOL_TIER, 5.5f, -2.8f)).fireResistant());
 	}
 
 	@Override
@@ -76,6 +76,7 @@ public class AeroshovelItem extends ShovelItem {
 		list.add(Component.translatable("item.some_avali_item.aeroshovel.description_4"));
 		list.add(Component.translatable("item.some_avali_item.aeroshovel.description_5"));
 		list.add(Component.translatable("item.some_avali_item.aeroshovel.description_6"));
+		list.add(Component.translatable("item.some_avali_item.aeroshovel.description_7"));
 	}
 
 	@Override
