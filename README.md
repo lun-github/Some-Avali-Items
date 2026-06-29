@@ -1,7 +1,7 @@
 # Some-Avali-Items
 Minecraft mod about avali techs for neoforge 1.21.1
 
-<h1>IF YOU WANT DOWNLOAD MOD. GO TO "Mod version" AND CHOISE LAST ONE.<h1>
+<h2>IF YOU WANT DOWNLOAD MOD. GO TO "Mod version" AND CHOISE LAST ONE.</h2>
 
 --- Adding item to this tags allow it drop form lava fishing ---<br>
 <b>sai:lava_fishing/common</b> - 50% drop chance<br>
