@@ -41,7 +41,7 @@
         "value": "CUSTOM:Quarzite"
       },
       {
-        "value": "Items.REDSTONE"
+        "value": "CUSTOM:Quarzchip"
       }
     ],
     "recipeReturnStack": {

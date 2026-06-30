@@ -2,7 +2,7 @@
   "_fv": 79,
   "_type": "tool",
   "definition": {
-    "toolType": "Special",
+    "toolType": "Shield",
     "renderType": 0,
     "blockingRenderType": 0,
     "texture": "aeroraiper",
@@ -18,8 +18,11 @@
         "",
         "§4- Cannot be enchanted -",
         "",
-        "§7= 200% damage while above enemy =",
-        "§7= RBM for parry attack to avoid damage =",
+        "§7= 300% damage while above enemy =",
+        "§7= RBM for parry attack and avoid damage =",
+        "",
+        "§2Damage: 4",
+        "§2Attack Speed: 4",
         ""
       ]
     },

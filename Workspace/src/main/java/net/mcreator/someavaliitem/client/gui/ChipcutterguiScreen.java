@@ -27,7 +27,7 @@ public class ChipcutterguiScreen extends AbstractContainerScreen<ChipcutterguiMe
 		this.z = container.z;
 		this.entity = container.entity;
 		this.imageWidth = 176;
-		this.imageHeight = 220;
+		this.imageHeight = 166;
 	}
 
 	@Override
@@ -64,7 +64,6 @@ public class ChipcutterguiScreen extends AbstractContainerScreen<ChipcutterguiMe
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.some_avali_item.chipcuttergui.label_inventory"), 7, 99, -12829636, false);
 	}
 
 	@Override

@@ -11,7 +11,7 @@
       "item": "minecraft:string"
     },
     "b": {
-      "item": "some_avali_item:aerogel"
+      "tag": "neoforge:aerogel"
     }
   },
   "result": {

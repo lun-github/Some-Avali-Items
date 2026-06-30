@@ -14,7 +14,7 @@
       "item": "minecraft:quartz"
     },
     "c": {
-      "item": "some_avali_item:aerogel"
+      "tag": "neoforge:aerogel"
     },
     "d": {
       "item": "minecraft:redstone"

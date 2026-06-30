@@ -1,0 +1,5527 @@
+{
+  "mod_elements": [
+    {
+      "name": "Aerogel",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerogel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/AerogelItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/aerogel.json"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Graphite",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "graphite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/graphite.json",
+          "src/main/java/net/mcreator/someavaliitem/item/GraphiteItem.java"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Aerofishrod",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerofishrod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/AerofishrodItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/aerofishrod.json"
+        ]
+      },
+      "path": "~/Tool"
+    },
+    {
+      "name": "SAI",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sai",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Aerofishing",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerofishing",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/AerofishingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Thread",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thread",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/ThreadItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/thread.json"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Aerofishrodrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerofishrodrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/recipes/aerofishrodrecipe.json",
+          "src/main/resources/data/some_avali_item/recipe/aerofishrodrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Threadrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "threadrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/recipes/threadrecipe.json",
+          "src/main/resources/data/some_avali_item/recipe/threadrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Threadrecipealt",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "threadrecipealt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/recipes/threadrecipealt.json",
+          "src/main/resources/data/some_avali_item/recipe/threadrecipealt.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Graphiteblank",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "graphiteblank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/graphiteblank.json",
+          "src/main/java/net/mcreator/someavaliitem/item/GraphiteblankItem.java"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Graphiterecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "graphiterecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/graphiterecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Graphitepeace",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "graphitepeace",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/GraphitepeaceItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/graphitepeace.json"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Graphiteblankrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "graphiteblankrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/graphiteblankrecipe.json",
+          "src/main/resources/data/some_avali_item/advancement/recipes/graphiteblankrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Graphiterecipealt",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "graphiterecipealt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/graphiterecipealt.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Dropgraphitepeace",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dropgraphitepeace",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/DropgraphitepeaceProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Bebrockpickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bebrockpickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/BebrockpickaxeItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/bebrockpickaxe.json"
+        ]
+      },
+      "path": "~/Tool"
+    },
+    {
+      "name": "Bebrockpickaxerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bebrockpickaxerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/recipes/bebrockpickaxerecipe.json",
+          "src/main/resources/data/some_avali_item/recipe/bebrockpickaxerecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Bedrockrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrockrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/bedrockrecipe.json",
+          "src/main/resources/data/some_avali_item/advancement/recipes/bedrockrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Bedrock_mining",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_mining",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Bedrock_miningProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Selicagel",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "selicagel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/selicagel.json",
+          "src/main/java/net/mcreator/someavaliitem/item/SelicagelItem.java"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Selicagelrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "selicagelrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/recipes/selicagelrecipe.json",
+          "src/main/resources/data/some_avali_item/recipe/selicagelrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Aerogelrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerogelrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/aerogelrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Portalemitter",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portalemitter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/loot_table/blocks/portalemitter.json",
+          "src/main/java/net/mcreator/someavaliitem/block/PortalemitterBlock.java",
+          "src/main/resources/assets/some_avali_item/blockstates/portalemitter.json",
+          "src/main/resources/assets/some_avali_item/models/block/portalemitter.json",
+          "src/main/resources/assets/some_avali_item/models/item/portalemitter.json"
+        ]
+      },
+      "path": "~/Block"
+    },
+    {
+      "name": "Hardice",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardice",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/block/HardiceBlock.java",
+          "src/main/resources/assets/some_avali_item/models/item/hardice.json",
+          "src/main/resources/data/some_avali_item/loot_table/blocks/hardice.json",
+          "src/main/resources/assets/some_avali_item/blockstates/hardice.json",
+          "src/main/resources/assets/some_avali_item/models/block/hardice.json"
+        ]
+      },
+      "path": "~/Block"
+    },
+    {
+      "name": "Ammoniaice",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ammoniaice",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/ammoniaice.json",
+          "src/main/resources/assets/some_avali_item/blockstates/ammoniaice.json",
+          "src/main/resources/assets/some_avali_item/models/block/ammoniaice.json",
+          "src/main/java/net/mcreator/someavaliitem/block/AmmoniaiceBlock.java",
+          "src/main/resources/data/some_avali_item/loot_table/blocks/ammoniaice.json"
+        ]
+      },
+      "path": "~/Block"
+    },
+    {
+      "name": "Sako",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sako",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/sako.json",
+          "src/main/resources/assets/some_avali_item/blockstates/sako.json",
+          "src/main/java/net/mcreator/someavaliitem/block/SakoBlock.java",
+          "src/main/resources/data/some_avali_item/loot_table/blocks/sako.json",
+          "src/main/resources/assets/some_avali_item/models/block/sako.json"
+        ]
+      },
+      "path": "~/Block"
+    },
+    {
+      "name": "Snowland",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snowland",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/worldgen/biome/snowland.json"
+        ]
+      }
+    },
+    {
+      "name": "Ammonia",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ammonia",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/block/ammonia.json",
+          "src/main/resources/assets/some_avali_item/models/item/ammonia_bucket.json",
+          "src/main/java/net/mcreator/someavaliitem/block/AmmoniaBlock.java",
+          "src/main/java/net/mcreator/someavaliitem/fluid/types/AmmoniaFluidType.java",
+          "src/main/java/net/mcreator/someavaliitem/fluid/AmmoniaFluid.java",
+          "src/main/java/net/mcreator/someavaliitem/item/AmmoniaItem.java",
+          "src/main/resources/assets/some_avali_item/blockstates/ammonia.json"
+        ]
+      }
+    },
+    {
+      "name": "Aerofishingtick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerofishingtick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/AerofishingtickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Obsidianchunk",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidianchunk",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/obsidianchunk.json",
+          "src/main/java/net/mcreator/someavaliitem/item/ObsidianchunkItem.java"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Magmarecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmarecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/magmarecipe.json",
+          "src/main/resources/data/some_avali_item/advancement/recipes/magmarecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Obsidianrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidianrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/recipes/obsidianrecipe.json",
+          "src/main/resources/data/some_avali_item/recipe/obsidianrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Graphiterod",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "graphiterod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/graphiterod.json",
+          "src/main/java/net/mcreator/someavaliitem/item/GraphiterodItem.java"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Graphiterodrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "graphiterodrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/graphiterodrecipe.json",
+          "src/main/resources/data/some_avali_item/advancement/recipes/graphiterodrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Aerogelpack",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerogelpack",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/aerogelpack.json",
+          "src/main/java/net/mcreator/someavaliitem/item/AerogelpackItem.java"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Aerogelpackrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerogelpackrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/aerogelpackrecipe.json",
+          "src/main/resources/data/some_avali_item/advancement/recipes/aerogelpackrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Aeropick",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeropick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/AeropickItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/aeropick.json"
+        ]
+      },
+      "path": "~/Tool"
+    },
+    {
+      "name": "Aeropick_block_destroyed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeropick_block_destroyed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Aeropick_block_destroyedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Aeropickhandle",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeropickhandle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/AeropickhandleItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/aeropickhandle.json"
+        ]
+      },
+      "path": "~/Tool"
+    },
+    {
+      "name": "Aerotool_rbm",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerotool_rbm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Aerotool_rbmProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Aeroprinter",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeroprinter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/AeroprinterItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/aeroprinter.json"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Aerosharper",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerosharper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/AerosharperItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/aerosharper.json"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Bladedrawing",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bladedrawing",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/BladedrawingItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/bladedrawing.json"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Bladedrawingrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bladedrawingrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/bladedrawingrecipe.json",
+          "src/main/resources/data/some_avali_item/advancement/recipes/bladedrawingrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Aeropickrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeropickrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/aeropickrecipe.json",
+          "src/main/resources/data/some_avali_item/advancement/recipes/aeropickrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Redstonewire",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstonewire",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/redstonewire.json",
+          "src/main/java/net/mcreator/someavaliitem/item/RedstonewireItem.java"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Tantal",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tantal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/TantalItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/tantal.json"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Aerosharperrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerosharperrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/aerosharperrecipe.json",
+          "src/main/resources/data/some_avali_item/advancement/recipes/aerosharperrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Redstonewirerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstonewirerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/redstonewirerecipe.json",
+          "src/main/resources/data/some_avali_item/advancement/recipes/redstonewirerecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Advancedmircochip",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advancedmircochip",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/AdvancedmircochipItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/advancedmircochip.json"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Aeroprinterrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeroprinterrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/recipes/aeroprinterrecipe.json",
+          "src/main/resources/data/some_avali_item/recipe/aeroprinterrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Aeroaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeroaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/aeroaxe.json",
+          "src/main/java/net/mcreator/someavaliitem/item/AeroaxeItem.java"
+        ]
+      },
+      "path": "~/Tool"
+    },
+    {
+      "name": "Aeroaxehandle",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeroaxehandle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/AeroaxehandleItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/aeroaxehandle.json"
+        ]
+      },
+      "path": "~/Tool"
+    },
+    {
+      "name": "Aeroshovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeroshovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/AeroshovelItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/aeroshovel.json"
+        ]
+      },
+      "path": "~/Tool"
+    },
+    {
+      "name": "Aerohoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerohoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/AerohoeItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/aerohoe.json"
+        ]
+      },
+      "path": "~/Tool"
+    },
+    {
+      "name": "Aeroshear",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeroshear",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/AeroshearItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/aeroshear.json"
+        ]
+      },
+      "path": "~/Tool"
+    },
+    {
+      "name": "Aeroblade",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeroblade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/aeroblade.json",
+          "src/main/java/net/mcreator/someavaliitem/item/AerobladeItem.java"
+        ]
+      },
+      "path": "~/Tool"
+    },
+    {
+      "name": "Crystalore",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystalore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/block/crystalore.json",
+          "src/main/resources/assets/some_avali_item/models/item/crystalore.json",
+          "src/main/resources/assets/some_avali_item/blockstates/crystalore.json",
+          "src/main/java/net/mcreator/someavaliitem/block/CrystaloreBlock.java",
+          "src/main/resources/data/some_avali_item/loot_table/blocks/crystalore.json"
+        ]
+      },
+      "path": "~/Block"
+    },
+    {
+      "name": "Formedaerogel",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "formedaerogel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/formedaerogel.json",
+          "src/main/java/net/mcreator/someavaliitem/item/FormedaerogelItem.java"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Aeroshovelhandle",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeroshovelhandle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/aeroshovelhandle.json",
+          "src/main/java/net/mcreator/someavaliitem/item/AeroshovelhandleItem.java"
+        ]
+      },
+      "path": "~/Tool"
+    },
+    {
+      "name": "Aerohoehandle",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerohoehandle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/aerohoehandle.json",
+          "src/main/java/net/mcreator/someavaliitem/item/AerohoehandleItem.java"
+        ]
+      },
+      "path": "~/Tool"
+    },
+    {
+      "name": "Aeroshearhandle",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeroshearhandle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/AeroshearhandleItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/aeroshearhandle.json"
+        ]
+      },
+      "path": "~/Tool"
+    },
+    {
+      "name": "Aerobladehandle",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerobladehandle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/AerobladehandleItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/aerobladehandle.json"
+        ]
+      },
+      "path": "~/Tool"
+    },
+    {
+      "name": "Aerotool_hand_tick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerotool_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Aerotool_hand_tickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Aeroiper",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeroiper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/AeroiperItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/aeroiper_0.json",
+          "src/main/resources/assets/some_avali_item/models/item/aeroiper.json"
+        ]
+      },
+      "path": "~/Tool"
+    },
+    {
+      "name": "Aeroiperhandle",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeroiperhandle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/aeroiperhandle.json",
+          "src/main/java/net/mcreator/someavaliitem/item/AeroiperhandleItem.java"
+        ]
+      },
+      "path": "~/Tool"
+    },
+    {
+      "name": "Aeroiper_hit",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeroiper_hit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Aeroiper_hitProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Aeroiper_parry",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeroiper_parry",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Aeroiper_parryProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Aeroiper_parry_in_work",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeroiper_parry_in_work",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Aeroiper_parry_in_workProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Strangefeather",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strangefeather",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/strangefeather.json",
+          "src/main/java/net/mcreator/someavaliitem/item/StrangefeatherItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Aeroblade_hit",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeroblade_hit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Aeroblade_hitProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Playertick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "playertick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/PlayertickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Aeroaxe_hit",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeroaxe_hit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Aeroaxe_hitProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Entitytick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entitytick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/EntitytickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Aerohoe_block_rbm",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerohoe_block_rbm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Aerohoe_block_rbmProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Aeroshovel_block_destroyed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeroshovel_block_destroyed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Aeroshovel_block_destroyedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Aerospear",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerospear",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/AerospearItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/aerospear.json"
+        ]
+      },
+      "path": "~/Tool"
+    },
+    {
+      "name": "Aerospearhandle",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerospearhandle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/AerospearhandleItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/aerospearhandle.json"
+        ]
+      },
+      "path": "~/Tool"
+    },
+    {
+      "name": "Aerogelblade",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerogelblade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/entity/AerogelbladeEntity.java"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "Aerospear_rbm",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerospear_rbm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Aerospear_rbmProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Aerogeldust",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerogeldust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/AerogeldustItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/aerogeldust.json"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Aerogeldustrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerogeldustrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/recipes/aerogeldustrecipe.json",
+          "src/main/resources/data/some_avali_item/recipe/aerogeldustrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Aerogelrecipealt",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerogelrecipealt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/recipes/aerogelrecipealt.json",
+          "src/main/resources/data/some_avali_item/recipe/aerogelrecipealt.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Aerogelcan",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerogelcan",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/AerogelcanItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/aerogelcan.json"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Aerogelcanrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerogelcanrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/recipes/aerogelcanrecipe.json",
+          "src/main/resources/data/some_avali_item/recipe/aerogelcanrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Aeroaxerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeroaxerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/recipes/aeroaxerecipe.json",
+          "src/main/resources/data/some_avali_item/recipe/aeroaxerecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Redstonebattery",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstonebattery",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/RedstonebatteryItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/redstonebattery.json"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Redstoneaccumulator",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstoneaccumulator",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/RedstoneaccumulatorItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/redstoneaccumulator.json"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Redstonebatteryempty",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstonebatteryempty",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/redstonebatteryempty.json",
+          "src/main/java/net/mcreator/someavaliitem/item/RedstonebatteryemptyItem.java"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Redstoneaccumulatorempty",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstoneaccumulatorempty",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/redstoneaccumulatorempty.json",
+          "src/main/java/net/mcreator/someavaliitem/item/RedstoneaccumulatoremptyItem.java"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Redstonebatteryrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstonebatteryrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/redstonebatteryrecipe.json",
+          "src/main/resources/data/some_avali_item/advancement/recipes/redstonebatteryrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Quarzite",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quarzite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/quarzite.json",
+          "src/main/java/net/mcreator/someavaliitem/item/QuarziteItem.java"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Redstonebatteryrecipealt",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstonebatteryrecipealt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/recipes/redstonebatteryrecipealt.json",
+          "src/main/resources/data/some_avali_item/recipe/redstonebatteryrecipealt.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Redstonebatteryrecipealt2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstonebatteryrecipealt_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/recipes/redstonebatteryrecipealt_2.json",
+          "src/main/resources/data/some_avali_item/recipe/redstonebatteryrecipealt_2.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Paddium",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paddium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/paddium.json",
+          "src/main/java/net/mcreator/someavaliitem/item/PaddiumItem.java"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Cadmium",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cadmium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/cadmium.json",
+          "src/main/java/net/mcreator/someavaliitem/item/CadmiumItem.java"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Nihonium",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nihonium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/nihonium.json",
+          "src/main/java/net/mcreator/someavaliitem/item/NihoniumItem.java"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Paddiumnugget",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paddiumnugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/paddiumnugget.json",
+          "src/main/java/net/mcreator/someavaliitem/item/PaddiumnuggetItem.java"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Cadmiumnugget",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cadmiumnugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/cadmiumnugget.json",
+          "src/main/java/net/mcreator/someavaliitem/item/CadmiumnuggetItem.java"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Nihoniumnugget",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nihoniumnugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/nihoniumnugget.json",
+          "src/main/java/net/mcreator/someavaliitem/item/NihoniumnuggetItem.java"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Tantalnugget",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tantalnugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/tantalnugget.json",
+          "src/main/java/net/mcreator/someavaliitem/item/TantalnuggetItem.java"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Redstoneaccumulatoremptyrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstoneaccumulatoremptyrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/redstoneaccumulatoremptyrecipe.json",
+          "src/main/resources/data/some_avali_item/advancement/recipes/redstoneaccumulatoremptyrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Redstonebatteryemptyrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstonebatteryemptyrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/recipes/redstonebatteryemptyrecipe.json",
+          "src/main/resources/data/some_avali_item/recipe/redstonebatteryemptyrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Redstoneaccumulatoremptyrecipealt",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstoneaccumulatoremptyrecipealt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/recipes/redstoneaccumulatoremptyrecipealt.json",
+          "src/main/resources/data/some_avali_item/recipe/redstoneaccumulatoremptyrecipealt.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Redstoneaccumulatorrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstoneaccumulatorrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/redstoneaccumulatorrecipe.json",
+          "src/main/resources/data/some_avali_item/advancement/recipes/redstoneaccumulatorrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Redstonewirerecipealt",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstonewirerecipealt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/redstonewirerecipealt.json",
+          "src/main/resources/data/some_avali_item/advancement/recipes/redstonewirerecipealt.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Aeroshovelrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeroshovelrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/aeroshovelrecipe.json",
+          "src/main/resources/data/some_avali_item/advancement/recipes/aeroshovelrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Aerohoerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerohoerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/aerohoerecipe.json",
+          "src/main/resources/data/some_avali_item/advancement/recipes/aerohoerecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Aeroshearrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeroshearrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/recipes/aeroshearrecipe.json",
+          "src/main/resources/data/some_avali_item/recipe/aeroshearrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Aerobladerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerobladerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/aerobladerecipe.json",
+          "src/main/resources/data/some_avali_item/advancement/recipes/aerobladerecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Aeroiperrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeroiperrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/recipes/aeroiperrecipe.json",
+          "src/main/resources/data/some_avali_item/recipe/aeroiperrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Hriocrystal",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hriocrystal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/HriocrystalItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/hriocrystal.json"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Purehriocrystal",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purehriocrystal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/PurehriocrystalItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/purehriocrystal.json"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Hriochip",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hriochip",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/HriochipItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/hriochip.json"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Hriopeace",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hriopeace",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/HriopeaceItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/hriopeace.json"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Advancedmircochiprecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advancedmircochiprecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/advancedmircochiprecipe.json",
+          "src/main/resources/data/some_avali_item/advancement/recipes/advancedmircochiprecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Graphitepeacerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "graphitepeacerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/graphitepeacerecipe.json",
+          "src/main/resources/data/some_avali_item/advancement/recipes/graphitepeacerecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Diamatchip",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamatchip",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/diamatchip.json",
+          "src/main/java/net/mcreator/someavaliitem/item/DiamatchipItem.java"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Simplemicrochip",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "simplemicrochip",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/simplemicrochip.json",
+          "src/main/java/net/mcreator/someavaliitem/item/SimplemicrochipItem.java"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Microchip",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "microchip",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/microchip.json",
+          "src/main/java/net/mcreator/someavaliitem/item/MicrochipItem.java"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Microchiprecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "microchiprecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/microchiprecipe.json",
+          "src/main/resources/data/some_avali_item/advancement/recipes/microchiprecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Simplemicrochiprecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "simplemicrochiprecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/recipes/simplemicrochiprecipe.json",
+          "src/main/resources/data/some_avali_item/recipe/simplemicrochiprecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Display",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "display",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/display.json",
+          "src/main/java/net/mcreator/someavaliitem/item/DisplayItem.java"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Quarziterecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quarziterecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/quarziterecipe.json",
+          "src/main/resources/data/some_avali_item/advancement/recipes/quarziterecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Displayrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "displayrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/recipes/displayrecipe.json",
+          "src/main/resources/data/some_avali_item/recipe/displayrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Singlesolarpanel",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "singlesolarpanel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/singlesolarpanel.json",
+          "src/main/java/net/mcreator/someavaliitem/item/SinglesolarpanelItem.java"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Singlesolarpanelrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "singlesolarpanelrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/recipes/singlesolarpanelrecipe.json",
+          "src/main/resources/data/some_avali_item/recipe/singlesolarpanelrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Starteritem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starteritem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/StarteritemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Heatedgraphiterod",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heatedgraphiterod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/HeatedgraphiterodItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/heatedgraphiterod.json"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Heatedgraphiterodrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heatedgraphiterodrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/recipes/heatedgraphiterodrecipe.json",
+          "src/main/resources/data/some_avali_item/recipe/heatedgraphiterodrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Heated_graphite_rod_hand_tick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heated_graphite_rod_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Heated_graphite_rod_hand_tickProcedure.java"
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Heatedgraphiterodfuel",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heatedgraphiterodfuel",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "Aeroblade_rbm",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeroblade_rbm",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Aeroblade_rbmProcedure.java"
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Heated_graphite_rod_hit",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heated_graphite_rod_hit",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Heated_graphite_rod_hitProcedure.java"
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Leaf",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leaf",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/LeafItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/leaf.json"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Leafymoss",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leafymoss",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/leafymoss.json",
+          "src/main/java/net/mcreator/someavaliitem/item/LeafymossItem.java"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Leafy_moss_eat",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leafy_moss_eat",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Leafy_moss_eatProcedure.java"
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Leafymossrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leafymossrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/recipes/leafymossrecipe.json",
+          "src/main/resources/data/some_avali_item/recipe/leafymossrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Leafdrop",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leafdrop",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/LeafdropProcedure.java"
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Debugger",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debugger",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/DebuggerItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/debugger.json"
+        ]
+      },
+      "path": "~/Tool"
+    },
+    {
+      "name": "Debug_info",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debug_info",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Debug_infoProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Debuggergive",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debuggergive",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/command/DebuggergiveCommand.java"
+        ]
+      },
+      "path": "~/Command"
+    },
+    {
+      "name": "Debuggergiveprocedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debuggergiveprocedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/DebuggergiveprocedureProcedure.java"
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Granitebook",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "granitebook",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/granitebook.json",
+          "src/main/java/net/mcreator/someavaliitem/item/GranitebookItem.java"
+        ]
+      },
+      "path": "~/Tool"
+    },
+    {
+      "name": "GraniteofScience",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "graniteof_science",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/GraniteofScienceItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/graniteof_science.json"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Graniteofsciencerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "graniteofsciencerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/recipes/graniteofsciencerecipe.json",
+          "src/main/resources/data/some_avali_item/recipe/graniteofsciencerecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Granitebookrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "granitebookrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/recipes/granitebookrecipe.json",
+          "src/main/resources/data/some_avali_item/recipe/granitebookrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Aeroneedle",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeroneedle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/aeroneedle.json",
+          "src/main/java/net/mcreator/someavaliitem/item/AeroneedleItem.java"
+        ]
+      },
+      "path": "~/Tool"
+    },
+    {
+      "name": "Bookrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bookrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/recipes/bookrecipe.json",
+          "src/main/resources/data/some_avali_item/recipe/bookrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Aeroneedlerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeroneedlerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/recipes/aeroneedlerecipe.json",
+          "src/main/resources/data/some_avali_item/recipe/aeroneedlerecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Granite_of_science_eat",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "granite_of_science_eat",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Granite_of_science_eatProcedure.java"
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Granite_book_glow",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "granite_book_glow",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Granite_book_glowProcedure.java"
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Granite_book_rbm",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "granite_book_rbm",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Granite_book_rbmProcedure.java"
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Graniteunderstanding",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "graniteunderstanding",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/graniteunderstanding.json"
+        ]
+      },
+      "path": "~/Achivement"
+    },
+    {
+      "name": "Granite_book_exp_count",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "granite_book_exp_count",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ],
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Granite_book_exp_countProcedure.java"
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Mindblow",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mindblow",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/mindblow.json"
+        ]
+      },
+      "path": "~/Achivement"
+    },
+    {
+      "name": "Redcrystal",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redcrystal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/redcrystal.json",
+          "src/main/java/net/mcreator/someavaliitem/item/RedcrystalItem.java"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Redcrystalrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redcrystalrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/recipes/redcrystalrecipe.json",
+          "src/main/resources/data/some_avali_item/recipe/redcrystalrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Holoprojector",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holoprojector",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/HoloprojectorItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/holoprojector.json"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Holoprojectorrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holoprojectorrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/holoprojectorrecipe.json",
+          "src/main/resources/data/some_avali_item/advancement/recipes/holoprojectorrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Quarzchip",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quarzchip",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/QuarzchipItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/quarzchip.json"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Quarzitedrawing",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quarzitedrawing",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/QuarzitedrawingItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/quarzitedrawing.json"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Quarzitedrawingrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quarzitedrawingrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/quarzitedrawingrecipe.json",
+          "src/main/resources/data/some_avali_item/advancement/recipes/quarzitedrawingrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Aeroknife",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeroknife",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/aeroknife.json",
+          "src/main/java/net/mcreator/someavaliitem/item/AeroknifeItem.java"
+        ]
+      },
+      "path": "~/Tool"
+    },
+    {
+      "name": "Aerokniferecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerokniferecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/recipes/aerokniferecipe.json",
+          "src/main/resources/data/some_avali_item/recipe/aerokniferecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Aeroknife_hit",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeroknife_hit",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Aeroknife_hitProcedure.java"
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Margiumchip",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "margiumchip",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/MargiumchipItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/margiumchip.json"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Roughdiamatcrystal",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roughdiamatcrystal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/RoughdiamatcrystalItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/roughdiamatcrystal.json"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Roughmargiumcrystal",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roughmargiumcrystal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/roughmargiumcrystal.json",
+          "src/main/java/net/mcreator/someavaliitem/item/RoughmargiumcrystalItem.java"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Slimecrystal",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slimecrystal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/SlimecrystalItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/slimecrystal.json"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Slimeballrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slimeballrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/recipes/slimeballrecipe.json",
+          "src/main/resources/data/some_avali_item/recipe/slimeballrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Portableprinter",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portableprinter",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/portableprinter.json",
+          "src/main/java/net/mcreator/someavaliitem/item/PortableprinterItem.java"
+        ]
+      },
+      "path": "~/Tool"
+    },
+    {
+      "name": "Portableprinterrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portableprinterrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/portableprinterrecipe.json",
+          "src/main/resources/data/some_avali_item/advancement/recipes/portableprinterrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Printedpickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "printedpickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/PrintedpickaxeItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/printedpickaxe.json"
+        ]
+      },
+      "path": "~/Tool"
+    },
+    {
+      "name": "Printedsword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "printedsword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/PrintedswordItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/printedsword.json"
+        ]
+      },
+      "path": "~/Tool"
+    },
+    {
+      "name": "Printedaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "printedaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/printedaxe.json",
+          "src/main/java/net/mcreator/someavaliitem/item/PrintedaxeItem.java"
+        ]
+      },
+      "path": "~/Tool"
+    },
+    {
+      "name": "Printedshovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "printedshovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/printedshovel.json",
+          "src/main/java/net/mcreator/someavaliitem/item/PrintedshovelItem.java"
+        ]
+      },
+      "path": "~/Tool"
+    },
+    {
+      "name": "Printedhoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "printedhoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/printedhoe.json",
+          "src/main/java/net/mcreator/someavaliitem/item/PrintedhoeItem.java"
+        ]
+      },
+      "path": "~/Tool"
+    },
+    {
+      "name": "Printedshear",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "printedshear",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/PrintedshearItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/printedshear.json"
+        ]
+      },
+      "path": "~/Tool"
+    },
+    {
+      "name": "Portable_printer_rbm",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portable_printer_rbm",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Portable_printer_rbmProcedure.java"
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Portable_printer_hand_tick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portable_printer_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Portable_printer_hand_tickProcedure.java"
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Printedswordrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "printedswordrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/recipes/printedswordrecipe.json",
+          "src/main/resources/data/some_avali_item/recipe/printedswordrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Printedpickaxerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "printedpickaxerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/recipes/printedpickaxerecipe.json",
+          "src/main/resources/data/some_avali_item/recipe/printedpickaxerecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Printedaxerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "printedaxerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/printedaxerecipe.json",
+          "src/main/resources/data/some_avali_item/advancement/recipes/printedaxerecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Printedshovelrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "printedshovelrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/printedshovelrecipe.json",
+          "src/main/resources/data/some_avali_item/advancement/recipes/printedshovelrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Printedhoerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "printedhoerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/recipes/printedhoerecipe.json",
+          "src/main/resources/data/some_avali_item/recipe/printedhoerecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Printedshearrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "printedshearrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/printedshearrecipe.json",
+          "src/main/resources/data/some_avali_item/advancement/recipes/printedshearrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Smallgrindstone",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smallgrindstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/smallgrindstone.json",
+          "src/main/java/net/mcreator/someavaliitem/item/SmallgrindstoneItem.java"
+        ]
+      },
+      "path": "~/Tool"
+    },
+    {
+      "name": "Smallgrindstonerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smallgrindstonerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/smallgrindstonerecipe.json",
+          "src/main/resources/data/some_avali_item/advancement/recipes/smallgrindstonerecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Small_grindstone_rbm",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_grindstone_rbm",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Small_grindstone_rbmProcedure.java"
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Aeroshield",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeroshield",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/aeroshield.json",
+          "src/main/java/net/mcreator/someavaliitem/item/AeroshieldItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/aeroshield_0.json"
+        ]
+      },
+      "path": "~/Tool"
+    },
+    {
+      "name": "Aeroshieldrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeroshieldrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/aeroshieldrecipe.json",
+          "src/main/resources/data/some_avali_item/advancement/recipes/aeroshieldrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Shieldemmiter",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shieldemmiter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/ShieldemmiterItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/shieldemmiter.json"
+        ]
+      },
+      "path": "~/Tool"
+    },
+    {
+      "name": "Aeroshield_inv_tick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeroshield_inv_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Aeroshield_inv_tickProcedure.java"
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Granite_of_Science_info",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "granite_of_science_info",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Granite_of_Science_infoProcedure.java"
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Iqlevel",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iqlevel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/command/IqlevelCommand.java"
+        ]
+      },
+      "path": "~/Command"
+    },
+    {
+      "name": "Iqlevelprocedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iqlevelprocedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/IqlevelprocedureProcedure.java"
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Granite_book_hit",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "granite_book_hit",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Granite_book_hitProcedure.java"
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Aeroshieldrecipealt",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeroshieldrecipealt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/recipes/aeroshieldrecipealt.json",
+          "src/main/resources/data/some_avali_item/recipe/aeroshieldrecipealt.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Desiccantsilicagel",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "desiccantsilicagel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/DesiccantsilicagelItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/desiccantsilicagel.json"
+        ]
+      },
+      "path": "~/Tool"
+    },
+    {
+      "name": "Desiccantselicagelrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "desiccantselicagelrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/recipes/desiccantselicagelrecipe.json",
+          "src/main/resources/data/some_avali_item/recipe/desiccantselicagelrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Clearglassrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clearglassrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/clearglassrecipe.json",
+          "src/main/resources/data/some_avali_item/advancement/recipes/clearglassrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Clearwhoolrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clearwhoolrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/recipes/clearwhoolrecipe.json",
+          "src/main/resources/data/some_avali_item/recipe/clearwhoolrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Clearterracottarecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clearterracottarecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/recipes/clearterracottarecipe.json",
+          "src/main/resources/data/some_avali_item/recipe/clearterracottarecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Clearglasspanerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clearglasspanerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/clearglasspanerecipe.json",
+          "src/main/resources/data/some_avali_item/advancement/recipes/clearglasspanerecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Roughpaddiumore",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roughpaddiumore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/roughpaddiumore.json",
+          "src/main/java/net/mcreator/someavaliitem/item/RoughpaddiumoreItem.java"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Roughcadmiumore",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roughcadmiumore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/RoughcadmiumoreItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/roughcadmiumore.json"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Roughcrystalore",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roughcrystalore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/roughcrystalore.json",
+          "src/main/java/net/mcreator/someavaliitem/item/RoughcrystaloreItem.java"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Roughnihoniumore",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roughnihoniumore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/RoughnihoniumoreItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/roughnihoniumore.json"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Paddiumore",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paddiumore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/block/PaddiumoreBlock.java",
+          "src/main/resources/data/some_avali_item/loot_table/blocks/paddiumore.json",
+          "src/main/resources/assets/some_avali_item/blockstates/paddiumore.json",
+          "src/main/resources/assets/some_avali_item/models/item/paddiumore.json",
+          "src/main/resources/assets/some_avali_item/models/block/paddiumore.json"
+        ]
+      },
+      "path": "~/Block"
+    },
+    {
+      "name": "Cadmiumore",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cadmiumore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/blockstates/cadmiumore.json",
+          "src/main/resources/assets/some_avali_item/models/block/cadmiumore.json",
+          "src/main/resources/assets/some_avali_item/models/item/cadmiumore.json",
+          "src/main/java/net/mcreator/someavaliitem/block/CadmiumoreBlock.java",
+          "src/main/resources/data/some_avali_item/loot_table/blocks/cadmiumore.json"
+        ]
+      },
+      "path": "~/Block"
+    },
+    {
+      "name": "Nihoniumore",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nihoniumore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/loot_table/blocks/nihoniumore.json",
+          "src/main/resources/assets/some_avali_item/models/item/nihoniumore.json",
+          "src/main/java/net/mcreator/someavaliitem/block/NihoniumoreBlock.java",
+          "src/main/resources/assets/some_avali_item/blockstates/nihoniumore.json",
+          "src/main/resources/assets/some_avali_item/models/block/nihoniumore.json"
+        ]
+      },
+      "path": "~/Block"
+    },
+    {
+      "name": "Hrioore",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hrioore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/hrioore.json",
+          "src/main/resources/assets/some_avali_item/models/block/hrioore.json",
+          "src/main/java/net/mcreator/someavaliitem/block/HriooreBlock.java",
+          "src/main/resources/data/some_avali_item/loot_table/blocks/hrioore.json",
+          "src/main/resources/assets/some_avali_item/blockstates/hrioore.json"
+        ]
+      },
+      "path": "~/Block"
+    },
+    {
+      "name": "Diamatore",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamatore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/diamatore.json",
+          "src/main/resources/assets/some_avali_item/models/block/diamatore.json",
+          "src/main/java/net/mcreator/someavaliitem/block/DiamatoreBlock.java",
+          "src/main/resources/data/some_avali_item/loot_table/blocks/diamatore.json",
+          "src/main/resources/assets/some_avali_item/blockstates/diamatore.json"
+        ]
+      },
+      "path": "~/Block"
+    },
+    {
+      "name": "Margiumore",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "margiumore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/margiumore.json",
+          "src/main/resources/assets/some_avali_item/blockstates/margiumore.json",
+          "src/main/java/net/mcreator/someavaliitem/block/MargiumoreBlock.java",
+          "src/main/resources/assets/some_avali_item/models/block/margiumore.json",
+          "src/main/resources/data/some_avali_item/loot_table/blocks/margiumore.json"
+        ]
+      },
+      "path": "~/Block"
+    },
+    {
+      "name": "Paddiumnuggetrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paddiumnuggetrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/paddiumnuggetrecipe.json",
+          "src/main/resources/data/some_avali_item/advancement/recipes/paddiumnuggetrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Cadmiumnuggetrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cadmiumnuggetrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/recipes/cadmiumnuggetrecipe.json",
+          "src/main/resources/data/some_avali_item/recipe/cadmiumnuggetrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Nihoniumnuggetrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nihoniumnuggetrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/nihoniumnuggetrecipe.json",
+          "src/main/resources/data/some_avali_item/advancement/recipes/nihoniumnuggetrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Tantalnuggetrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tantalnuggetrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/tantalnuggetrecipe.json",
+          "src/main/resources/data/some_avali_item/advancement/recipes/tantalnuggetrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Paddiumrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paddiumrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/recipes/paddiumrecipe.json",
+          "src/main/resources/data/some_avali_item/recipe/paddiumrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Cadmiumrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cadmiumrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/cadmiumrecipe.json",
+          "src/main/resources/data/some_avali_item/advancement/recipes/cadmiumrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Nihoniumrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nihoniumrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/recipes/nihoniumrecipe.json",
+          "src/main/resources/data/some_avali_item/recipe/nihoniumrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Tantalrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tantalrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/recipes/tantalrecipe.json",
+          "src/main/resources/data/some_avali_item/recipe/tantalrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Ore_mine",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ore_mine",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Ore_mineProcedure.java"
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Aeromer",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeromer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/AeromerItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/aeromer.json"
+        ]
+      },
+      "path": "~/Tool"
+    },
+    {
+      "name": "Aeromerhandle",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeromerhandle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/AeromerhandleItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/aeromerhandle.json"
+        ]
+      },
+      "path": "~/Tool"
+    },
+    {
+      "name": "Aeroblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeroblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/aeroblock.json",
+          "src/main/resources/assets/some_avali_item/models/block/aeroblock.json",
+          "src/main/resources/data/some_avali_item/loot_table/blocks/aeroblock.json",
+          "src/main/resources/assets/some_avali_item/blockstates/aeroblock.json",
+          "src/main/java/net/mcreator/someavaliitem/block/AeroblockBlock.java"
+        ]
+      },
+      "path": "~/Block"
+    },
+    {
+      "name": "Aeromer_rbm",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeromer_rbm",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Aeromer_rbmProcedure.java"
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Aeromerrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeromerrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/recipes/aeromerrecipe.json",
+          "src/main/resources/data/some_avali_item/recipe/aeromerrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Strangefeatherrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strangefeatherrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/strangefeatherrecipe.json",
+          "src/main/resources/data/some_avali_item/advancement/recipes/strangefeatherrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Quarziterod",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quarziterod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/quarziterod.json",
+          "src/main/java/net/mcreator/someavaliitem/item/QuarziterodItem.java"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Diamatpeace",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamatpeace",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/diamatpeace.json",
+          "src/main/java/net/mcreator/someavaliitem/item/DiamatpeaceItem.java"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Margiumpeace",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "margiumpeace",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/MargiumpeaceItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/margiumpeace.json"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Quarzpeace",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quarzpeace",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/quarzpeace.json",
+          "src/main/java/net/mcreator/someavaliitem/item/QuarzpeaceItem.java"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Slimecrystalpeace",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slimecrystalpeace",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/SlimecrystalpeaceItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/slimecrystalpeace.json"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Reddot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reddot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/ReddotItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/reddot.json"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Reddotrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reddotrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/reddotrecipe.json",
+          "src/main/resources/data/some_avali_item/advancement/recipes/reddotrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Chipcutter",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chipcutter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/block/ChipcutterBlock.java",
+          "src/main/java/net/mcreator/someavaliitem/block/entity/ChipcutterBlockEntity.java",
+          "src/main/resources/data/some_avali_item/loot_table/blocks/chipcutter.json",
+          "src/main/resources/assets/some_avali_item/models/item/chipcutter.json",
+          "src/main/resources/assets/some_avali_item/blockstates/chipcutter.json",
+          "src/main/resources/assets/some_avali_item/models/block/chipcutter.json"
+        ]
+      }
+    },
+    {
+      "name": "Quarzpeacedrop",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quarzpeacedrop",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/QuarzpeacedropProcedure.java"
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Quarzrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quarzrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/quarzrecipe.json",
+          "src/main/resources/data/some_avali_item/advancement/recipes/quarzrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Chipcuttergui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chipcuttergui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/world/inventory/ChipcutterguiMenu.java",
+          "src/main/java/net/mcreator/someavaliitem/client/gui/ChipcutterguiScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "Aerohook_rbm",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerohook_rbm",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Aerohook_rbmProcedure.java"
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Hookproj",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hookproj",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/entity/HookprojEntity.java",
+          "src/main/java/net/mcreator/someavaliitem/client/renderer/HookprojRenderer.java"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "Aerohook",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerohook",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/aerohook.json",
+          "src/main/resources/assets/some_avali_item/models/item/aerohook_0.json",
+          "src/main/java/net/mcreator/someavaliitem/item/AerohookItem.java"
+        ]
+      },
+      "path": "~/Tool"
+    },
+    {
+      "name": "Hook_block_hit",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hook_block_hit",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Hook_block_hitProcedure.java"
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Harpoon",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harpoon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/harpoon.json",
+          "src/main/java/net/mcreator/someavaliitem/item/HarpoonItem.java"
+        ]
+      },
+      "path": "~/Tool"
+    },
+    {
+      "name": "Aerohookrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerohookrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/aerohookrecipe.json",
+          "src/main/resources/data/some_avali_item/advancement/recipes/aerohookrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Aeropoonrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeropoonrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/aeropoonrecipe.json",
+          "src/main/resources/data/some_avali_item/advancement/recipes/aeropoonrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Lapisdot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapisdot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/lapisdot.json",
+          "src/main/java/net/mcreator/someavaliitem/item/LapisdotItem.java"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Greendot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greendot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/greendot.json",
+          "src/main/java/net/mcreator/someavaliitem/item/GreendotItem.java"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Lapisdotrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapisdotrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/lapisdotrecipe.json",
+          "src/main/resources/data/some_avali_item/advancement/recipes/lapisdotrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Greendotrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greendotrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/greendotrecipe.json",
+          "src/main/resources/data/some_avali_item/advancement/recipes/greendotrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Greencolorrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greencolorrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/recipes/greencolorrecipe.json",
+          "src/main/resources/data/some_avali_item/recipe/greencolorrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Romba",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "romba",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/romba_spawn_egg.json",
+          "src/main/java/net/mcreator/someavaliitem/client/renderer/RombaRenderer.java",
+          "src/main/java/net/mcreator/someavaliitem/entity/RombaEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Pencil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pencil",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/PencilItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/pencil.json"
+        ]
+      },
+      "path": "~/Tool"
+    },
+    {
+      "name": "Aeroncil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeroncil",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/AeroncilItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/aeroncil.json"
+        ]
+      },
+      "path": "~/Tool"
+    },
+    {
+      "name": "Pencilrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pencilrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/recipes/pencilrecipe.json",
+          "src/main/resources/data/some_avali_item/recipe/pencilrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Aeroncilrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeroncilrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/aeroncilrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Hook_entity_hit",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hook_entity_hit",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Hook_entity_hitProcedure.java"
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Aerohook_rbm_alt",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerohook_rbm_alt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Aerohook_rbm_altProcedure.java"
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Aerospear_sweep",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerospear_sweep",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Aerospear_sweepProcedure.java"
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Aeromer_inv_tick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeromer_inv_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Aeromer_inv_tickProcedure.java"
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Aerotool_hit",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerotool_hit",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Aerotool_hitProcedure.java"
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Heavyinjury",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavyinjury",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/potion/HeavyinjuryMobEffect.java"
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "Heavy_injury_tick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavy_injury_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "amplifier",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Heavy_injury_tickProcedure.java"
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Heavy_injury_added",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavy_injury_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "amplifier",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Heavy_injury_addedProcedure.java"
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Cuttedbladeparticle",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cuttedbladeparticle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/client/particle/CuttedbladeparticleParticle.java",
+          "src/main/resources/assets/some_avali_item/particles/cuttedbladeparticle.json"
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "Heavy_injury_dead",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavy_injury_dead",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Heavy_injury_deadProcedure.java"
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Heatresistancethread",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heatresistancethread",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/heatresistancethread.json",
+          "src/main/java/net/mcreator/someavaliitem/item/HeatresistancethreadItem.java"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Aerogeldustrecipealt",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerogeldustrecipealt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/recipes/aerogeldustrecipealt.json",
+          "src/main/resources/data/some_avali_item/recipe/aerogeldustrecipealt.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Heatresistancethreadrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heatresistancethreadrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/heatresistancethreadrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Suppression",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suppression",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/potion/SuppressionMobEffect.java"
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "Punchcardblank",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "punchcardblank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/PunchcardblankItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/punchcardblank.json"
+        ]
+      }
+    },
+    {
+      "name": "Punchcardquarzite",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "punchcardquarzite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/punchcardquarzite.json",
+          "src/main/java/net/mcreator/someavaliitem/item/PunchcardquarziteItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Aeromer_hit",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeromer_hit",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Aeromer_hitProcedure.java"
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Leatherpeace",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leatherpeace",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/LeatherpeaceItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/leatherpeace.json"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Meatchunk",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meatchunk",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/meatchunk.json",
+          "src/main/java/net/mcreator/someavaliitem/item/MeatchunkItem.java"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Leatherrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leatherrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/leatherrecipe.json",
+          "src/main/resources/data/some_avali_item/advancement/recipes/leatherrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Meatchunkcooked",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meatchunkcooked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/MeatchunkcookedItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/meatchunkcooked.json"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Meatchunkcookedrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meatchunkcookedrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/meatchunkcookedrecipe.json",
+          "src/main/resources/data/some_avali_item/advancement/recipes/meatchunkcookedrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Meatchunkcookedrecipealt",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meatchunkcookedrecipealt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/recipes/meatchunkcookedrecipealt.json",
+          "src/main/resources/data/some_avali_item/recipe/meatchunkcookedrecipealt.json"
+        ]
+      },
+      "path": "~/Recipe"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "aerofishing_timer",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "600.0"
+    },
+    {
+      "name": "isAerofishing",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "aerotool_repair",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0.0"
+    },
+    {
+      "name": "parry_window",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0.0"
+    },
+    {
+      "name": "parry_health",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "2.0"
+    },
+    {
+      "name": "damage_boost",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "start_item",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "graphite_hot",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "iq_lvl",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "book_warn",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "mindblow_count",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "printer_state",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "is_iq_set",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "is_alive",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "quarz_peace_droped",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "harpon_x",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "harpon_y",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "harpon_z",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "ishooked",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "hookAutoDetach",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "aeromer_fall_y1",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "aeromer_fall_y2",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:neoforge:ore": [
+      "CUSTOM:Crystalore",
+      "Blocks.COAL_ORE",
+      "Blocks.IRON_ORE",
+      "Blocks.REDSTONE_ORE",
+      "Blocks.LIT_REDSTONE_ORE",
+      "Blocks.GOLD_ORE",
+      "Blocks.LAPIS_ORE",
+      "Blocks.DIAMOND_ORE",
+      "Blocks.EMERALD_ORE",
+      "Blocks.COPPER_ORE",
+      "Blocks.DEEPSLATE_COAL_ORE",
+      "Blocks.DEEPSLATE_IRON_ORE",
+      "Blocks.DEEPSLATE_REDSTONE_ORE",
+      "Blocks.DEEPSLATE_GOLD_ORE",
+      "Blocks.DEEPSLATE_LAPIS_ORE",
+      "Blocks.DEEPSLATE_DIAMOND_ORE",
+      "Blocks.DEEPSLATE_EMERALD_ORE",
+      "Blocks.DEEPSLATE_COPPER_ORE",
+      "Blocks.QUARTZ_ORE",
+      "Blocks.NETHER_GOLD_ORE"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Chipcutter",
+      "~CUSTOM:Aeroblock",
+      "~CUSTOM:Margiumore",
+      "~CUSTOM:Diamatore",
+      "~CUSTOM:Hrioore",
+      "~CUSTOM:Nihoniumore",
+      "~CUSTOM:Cadmiumore",
+      "~CUSTOM:Paddiumore",
+      "~CUSTOM:Crystalore",
+      "~CUSTOM:Ammoniaice",
+      "~CUSTOM:Hardice",
+      "~CUSTOM:Portalemitter"
+    ],
+    "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:Sako"
+    ],
+    "ITEMS:sai:aerotool": [
+      "CUSTOM:Aeropick",
+      "CUSTOM:Aeropickhandle",
+      "CUSTOM:Aeroaxe",
+      "CUSTOM:Aeroaxehandle",
+      "CUSTOM:Aeroshovel",
+      "CUSTOM:Aerohoe",
+      "CUSTOM:Aeroshear",
+      "CUSTOM:Aeroblade",
+      "CUSTOM:Aeroshovelhandle",
+      "CUSTOM:Aerohoehandle",
+      "CUSTOM:Aeroshearhandle",
+      "CUSTOM:Aerobladehandle",
+      "CUSTOM:Aeroiper",
+      "CUSTOM:Aeroiperhandle",
+      "CUSTOM:Aerospear",
+      "CUSTOM:Aerospearhandle",
+      "CUSTOM:Aeromer",
+      "CUSTOM:Aeromerhandle"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:Aeromerhandle",
+      "~CUSTOM:Aeromer",
+      "~CUSTOM:Printedpickaxe",
+      "~CUSTOM:Aerospearhandle",
+      "~CUSTOM:Aeroiperhandle",
+      "~CUSTOM:Aerobladehandle",
+      "~CUSTOM:Aeroshearhandle",
+      "~CUSTOM:Aerohoehandle",
+      "~CUSTOM:Aeroshovelhandle",
+      "~CUSTOM:Aeroaxehandle",
+      "~CUSTOM:Aeropickhandle",
+      "~CUSTOM:Aeropick",
+      "~CUSTOM:Bebrockpickaxe"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:Printedhoe",
+      "~CUSTOM:Aerohoe"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:Crystalore"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:Aerospear",
+      "~CUSTOM:Printedsword",
+      "~CUSTOM:Aeroknife",
+      "~CUSTOM:Aeroblade"
+    ],
+    "ITEMS:minecraft:enchantable/fishing": [
+      "~CUSTOM:Aerofishrod"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:Printedshovel",
+      "~CUSTOM:Aeroshovel"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:Printedaxe",
+      "~CUSTOM:Aeroaxe"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:Ammonia"
+    ],
+    "BLOCKS:sai:graphitedrop": [
+      "Blocks.COAL_ORE",
+      "Blocks.DEEPSLATE_COAL_ORE"
+    ],
+    "BLOCKS:sai:loose": [
+      "Blocks.SAND#0",
+      "Blocks.SAND#1",
+      "Blocks.GRAVEL",
+      "CUSTOM:Sako"
+    ],
+    "BLOCKS:sai:hoe": [
+      "Blocks.GRASS_PATH",
+      "Blocks.DIRT#0",
+      "Blocks.DIRT#1",
+      "Blocks.DIRT#2"
+    ],
+    "ITEMS:minecraft:enchantable/durability": [
+      "~CUSTOM:Aeroncil",
+      "~CUSTOM:Aerohook",
+      "~CUSTOM:Smallgrindstone",
+      "~CUSTOM:Portableprinter",
+      "~CUSTOM:Aeroneedle",
+      "~CUSTOM:Heatedgraphiterod"
+    ],
+    "BLOCKS:sai:leaf_drop": [
+      "Blocks.LEAVES#0",
+      "Blocks.LEAVES#1",
+      "Blocks.LEAVES#2",
+      "Blocks.LEAVES#3",
+      "Blocks.LEAVES2#0",
+      "Blocks.LEAVES2#1",
+      "Blocks.MANGROVE_LEAVES",
+      "Blocks.AZALEA_LEAVES",
+      "Blocks.FLOWERING_AZALEA_LEAVES",
+      "Blocks.CHERRY_LEAVES"
+    ],
+    "ENTITIES:sai:knife": [
+      "EntityPig",
+      "EntitySheep",
+      "EntityCow",
+      "EntityChicken",
+      "EntityRabbit"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:Cadmiumore",
+      "~CUSTOM:Paddiumore"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:Margiumore",
+      "~CUSTOM:Diamatore",
+      "~CUSTOM:Hrioore",
+      "~CUSTOM:Nihoniumore"
+    ],
+    "ITEMS:sai:pencil": [
+      "CUSTOM:Pencil",
+      "CUSTOM:Aeroncil"
+    ],
+    "ITEMS:sai:heavy_injury": [
+      "CUSTOM:Aeropick",
+      "CUSTOM:Aeroaxe",
+      "CUSTOM:Aeroshovel",
+      "CUSTOM:Aeroshear",
+      "CUSTOM:Printedpickaxe",
+      "CUSTOM:Printedaxe",
+      "CUSTOM:Printedshovel",
+      "CUSTOM:Printedhoe",
+      "CUSTOM:Printedshear"
+    ],
+    "ITEMS:sai:heavy_injury_2": [
+      "CUSTOM:Aeroblade",
+      "CUSTOM:Aeroiper",
+      "CUSTOM:Aerospear",
+      "CUSTOM:Aerohoe",
+      "CUSTOM:Printedsword"
+    ],
+    "ITEMS:sai:lava_fishing/common": [
+      "CUSTOM:Obsidianchunk",
+      "CUSTOM:Graphitepeace",
+      "CUSTOM:Quarzpeace",
+      "Items.GOLD_NUGGET",
+      "Items.GLOWSTONE_DUST"
+    ],
+    "ITEMS:sai:lava_fishing/rare": [
+      "Items.MAGMA_CREAM",
+      "Items.NETHER_WART"
+    ],
+    "ITEMS:sai:lava_fishing/exotic": [
+      "Items.GHAST_TEAR",
+      "Items.BLAZE_ROD"
+    ],
+    "ITEMS:neoforge:aerogel": [
+      "CUSTOM:Aerogel"
+    ],
+    "ITEMS:minecraft:meat": [
+      "~CUSTOM:Meatchunkcooked",
+      "~CUSTOM:Meatchunk"
+    ]
+  },
+  "tab_element_order": {
+    "CUSTOM:SAI": [
+      "Strangefeather",
+      "Aeroblade",
+      "Aeroiper",
+      "Aerospear",
+      "Aeropick",
+      "Aeromer",
+      "Aeroaxe",
+      "Aeroshovel",
+      "Aerohoe",
+      "Aeroshear",
+      "Aerohook",
+      "Harpoon",
+      "Aerofishrod",
+      "Aeroknife",
+      "Aeroshield",
+      "Portableprinter",
+      "Smallgrindstone",
+      "Aeroneedle",
+      "Chipcutter",
+      "Portalemitter",
+      "Hardice",
+      "Ammoniaice",
+      "Sako",
+      "Selicagel",
+      "Desiccantsilicagel",
+      "Formedaerogel",
+      "Aerogeldust",
+      "Aerogel",
+      "Aerogelpack",
+      "Graphitepeace",
+      "Graphiteblank",
+      "Graphite",
+      "Graphiterod",
+      "Heatedgraphiterod",
+      "Redstonebatteryempty",
+      "Redstonebattery",
+      "Redstoneaccumulatorempty",
+      "Redstoneaccumulator",
+      "Quarzite",
+      "Quarziterod",
+      "Paddiumore",
+      "Roughpaddiumore",
+      "Paddiumnugget",
+      "Paddium",
+      "Cadmiumore",
+      "Roughcadmiumore",
+      "Cadmiumnugget",
+      "Cadmium",
+      "Nihoniumore",
+      "Roughnihoniumore",
+      "Nihoniumnugget",
+      "Nihonium",
+      "Tantalnugget",
+      "Tantal",
+      "Crystalore",
+      "Quarzpeace",
+      "Roughcrystalore",
+      "Hrioore",
+      "Hriopeace",
+      "Hriochip",
+      "Hriocrystal",
+      "Purehriocrystal",
+      "Diamatore",
+      "Diamatpeace",
+      "Diamatchip",
+      "Roughdiamatcrystal",
+      "Margiumore",
+      "Margiumpeace",
+      "Margiumchip",
+      "Roughmargiumcrystal",
+      "Quarzchip",
+      "Redcrystal",
+      "Slimecrystalpeace",
+      "Slimecrystal",
+      "Obsidianchunk",
+      "Simplemicrochip",
+      "Microchip",
+      "Advancedmircochip",
+      "Redstonewire",
+      "Aerogelcan",
+      "Aerosharper",
+      "Aeroprinter",
+      "Display",
+      "Holoprojector",
+      "Thread",
+      "Heatresistancethread",
+      "Singlesolarpanel",
+      "Pencil",
+      "Aeroncil",
+      "Leaf",
+      "Leafymoss",
+      "GraniteofScience",
+      "Granitebook",
+      "Bladedrawing",
+      "Quarzitedrawing",
+      "Ammonia",
+      "Reddot",
+      "Lapisdot",
+      "Greendot",
+      "Leatherpeace",
+      "Meatchunk",
+      "Meatchunkcooked"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "item.some_avali_item.redstoneaccumulatorempty": "Redstone Accumulator Empty",
+      "item.some_avali_item.graphite": "Graphite",
+      "item.some_avali_item.graphite.description_0": "§7Material",
+      "item.some_avali_item.hriochip": "Hrio Chip",
+      "item.some_avali_item.aerofishrod": "§6Aerofish Rod",
+      "item.some_avali_item.aeroshovel": "§6Aeroshovel",
+      "item.some_avali_item.redstonebattery": "Redstone Battery",
+      "item.some_avali_item.aerobladehandle": "Aeroblade Handle",
+      "item.some_avali_item.purehriocrystal": "Pure Hrio Crystal",
+      "item.some_avali_item.bladedrawing": "Blade drawing",
+      "item.some_avali_item.aeroshear.description_2": "§2+ Immune to fire +",
+      "item.some_avali_item.aeroshear.description_3": "",
+      "item.some_avali_item.aeroshear.description_4": "§4- Cannot be enchanted -",
+      "item.some_avali_item.hriocrystal": "Hrio Crystal",
+      "item.some_avali_item.paddium": "Paddium",
+      "item_group.some_avali_item.sai": "SAI",
+      "item.some_avali_item.formedaerogel": "§6Formed Aerogel",
+      "item.some_avali_item.aeroshear.description_0": "§2+ Instead of a tool, breaks blade +",
+      "item.some_avali_item.strangefeather": "Strange Feather",
+      "item.some_avali_item.aeroaxe": "§6Aeroaxe",
+      "item.some_avali_item.aeroshear.description_1": "§2+ Reprint blade while active +",
+      "item.some_avali_item.aeroprinter": "Aeroprinter",
+      "item.some_avali_item.graphiteblank": "Graphite blank",
+      "item.some_avali_item.aeroblade": "§6Aeroblade",
+      "item.some_avali_item.aeropickhandle": "§6Aeropick Handle",
+      "item.some_avali_item.tantalnugget": "Tantal Nugget",
+      "item.some_avali_item.simplemicrochip": "Simple Micro-chip",
+      "item.some_avali_item.aeropick.description_0": "§2+ Instead of a tool, breaks blade +",
+      "item.some_avali_item.aeropick.description_1": "§2+ Reprint blade while active +",
+      "item.some_avali_item.aeropick.description_6": "§7\u003d Comfortable mining \u003d",
+      "item.some_avali_item.bebrockpickaxe.description_0": "§5Joke",
+      "item.some_avali_item.graphitepeace.description_0": "§7Drop from Coal ores",
+      "item.some_avali_item.aeropick.description_2": "§2+ Immune to fire +",
+      "item.some_avali_item.redstonewire": "Redstone Wire",
+      "block.some_avali_item.ammoniaice": "Ammonia ice",
+      "item.some_avali_item.aeropick.description_3": "",
+      "item.some_avali_item.aeropick.description_4": "§4- Cannot be enchanted -",
+      "item.some_avali_item.aerohoe": "§6Aerohoe",
+      "item.some_avali_item.aeropick.description_5": "",
+      "item.some_avali_item.aerohoehandle": "§6Aerohoe Handle",
+      "block.some_avali_item.portalemitter": "Portal emitter",
+      "item.some_avali_item.aeroshear": "§6Aeroshear",
+      "item.some_avali_item.display": "Display",
+      "item.some_avali_item.aerospear": "§6Aerospear",
+      "item.some_avali_item.singlesolarpanel": "Single Solar Panel",
+      "item.some_avali_item.aerogel": "§6Aerogel",
+      "item.some_avali_item.redstoneaccumulator": "Redstone Accumulator",
+      "item.some_avali_item.aerogeldust": "§6Aerogel Dust",
+      "item.some_avali_item.nihonium": "Nihonium",
+      "block.some_avali_item.sako": "Sako",
+      "item.some_avali_item.aerogel.description_0": "§7Material",
+      "item.some_avali_item.cadmium": "Cadmium",
+      "item.some_avali_item.aerohoe.description_0": "§2+ Instead of a tool, breaks blade +",
+      "item.some_avali_item.microchip": "Micro-chip",
+      "fluid.some_avali_item.ammonia": "Ammonia",
+      "item.some_avali_item.aerohoe.description_5": "",
+      "item.some_avali_item.aerohoe.description_6": "§7\u003d Plowing 3x3 \u003d",
+      "item.some_avali_item.ammonia_bucket": "Ammonia Bucket",
+      "item.some_avali_item.selicagel": "Selicagel",
+      "item.some_avali_item.aerohoe.description_3": "",
+      "item.some_avali_item.quarzite": "Quarzite",
+      "item.some_avali_item.aerohoe.description_4": "§4- Cannot be enchanted -",
+      "item.some_avali_item.aeroshearhandle.description_0": "§7\u003d Press RBM to print blade back \u003d",
+      "item.some_avali_item.aerohoe.description_1": "§2+ Reprint blade while active +",
+      "item.some_avali_item.aerohoe.description_2": "§2+ Immune to fire +",
+      "item.some_avali_item.graphitepeace": "Graphite peace",
+      "item.some_avali_item.aerofishrod.description_0": "§2+ Immune to fire (n` lava ish?) +",
+      "item.some_avali_item.aeroshovelhandle": "§6Aeroshovel Handle",
+      "item.some_avali_item.aerofishrod.description_1": "",
+      "item.some_avali_item.aerofishrod.description_2": "§7\u003d Lava fishing \u003d",
+      "item.some_avali_item.tantal": "Tantal",
+      "block.some_avali_item.hardice": "Hard ice",
+      "item.some_avali_item.aeroiper.description_0": "§2+ Instead of a tool, breaks blade +",
+      "item.some_avali_item.aeroiper.description_1": "§2+ Reprint blade while active +",
+      "item.some_avali_item.aeroiper.description_2": "§2+ Immune to fire +",
+      "item.some_avali_item.aeroaxehandle": "§6Aeroaxe Handle",
+      "item.some_avali_item.aeroiper.description_3": "",
+      "item.some_avali_item.aeroiper.description_4": "§4- Cannot be enchanted -",
+      "item.some_avali_item.graphiteblank.description_0": "§4Blasting to graphite",
+      "item.some_avali_item.aeroiper.description_5": "",
+      "item.some_avali_item.aeroiper.description_6": "§7\u003d 300% damage while above enemy \u003d",
+      "item.some_avali_item.aeroiper.description_7": "§7\u003d RBM for parry attack and avoid damage \u003d",
+      "item.some_avali_item.aeroiper.description_8": "",
+      "item.some_avali_item.aerospearhandle": "§6Aerospear Handle",
+      "item.some_avali_item.obsidianchunk": "Obsidian Chunk",
+      "item.some_avali_item.graphiterod": "Graphite Rod",
+      "item.some_avali_item.aeroshovelhandle.description_0": "§7\u003d Press RBM to print blade back \u003d",
+      "item.some_avali_item.paddiumnugget": "Paddium Nugget",
+      "block.some_avali_item.crystalore": "Crystal Ore",
+      "item.some_avali_item.bebrockpickaxe": "§8Bebrock Pickaxe",
+      "item.some_avali_item.cadmiumnugget": "Cadmium Nugget",
+      "item.some_avali_item.advancedmircochip": "Advanced Mirco-chip",
+      "item.some_avali_item.hriopeace": "Hrio Peace",
+      "item.some_avali_item.aeroiperhandle": "§6Aeroiper Handle",
+      "item.some_avali_item.thread": "Thread",
+      "item.some_avali_item.aeroshovel.description_5": "",
+      "item.some_avali_item.aeroshovel.description_4": "§4- Cannot be enchanted -",
+      "item.some_avali_item.aeroshovel.description_6": "§7\u003d Automatically digs up falling blocks \u003d",
+      "item.some_avali_item.aeroshovel.description_1": "§2+ Reprint blade while active +",
+      "item.some_avali_item.nihoniumnugget": "Nihonium Nugget",
+      "item.some_avali_item.aeroaxe.description_0": "§2+ Instead of a tool, breaks blade +",
+      "item.some_avali_item.aeroshovel.description_0": "§2+ Instead of a tool, breaks blade +",
+      "item.some_avali_item.aerosharper": "Aerosharper",
+      "item.some_avali_item.aeroshovel.description_3": "",
+      "item.some_avali_item.aerogelcan": "§6Compressed Aerogel Tank",
+      "item.some_avali_item.aeroshovel.description_2": "§2+ Immune to fire +",
+      "item.some_avali_item.aeroaxe.description_3": "",
+      "item.some_avali_item.aerogelpack": "§6Aerogel Pack",
+      "item.some_avali_item.aeroaxe.description_4": "§4- Cannot be enchanted -",
+      "item.some_avali_item.aeroaxe.description_1": "§2+ Reprint blade while active +",
+      "item.some_avali_item.aeroaxe.description_2": "§2+ Immune to fire +",
+      "item.some_avali_item.aeroaxe.description_5": "",
+      "item.some_avali_item.aeroaxe.description_6": "§7\u003d 50% chance of injury enemy \u003d",
+      "item.some_avali_item.redstonebatteryempty": "Redstone Battery Empty",
+      "item.some_avali_item.aeroaxehandle.description_0": "§7\u003d Press RBM to print blade back \u003d",
+      "item.some_avali_item.aeroiperhandle.description_0": "§7\u003d Press RBM to print blade back \u003d",
+      "item.some_avali_item.aeroiper": "§6Aeroiper",
+      "item.some_avali_item.diamatchip": "Diamat Chip",
+      "item.some_avali_item.aerohoehandle.description_0": "§7\u003d Press RBM to print blade back \u003d",
+      "item.some_avali_item.aeropickhandle.description_0": "§7\u003d Press RBM to print blade back \u003d",
+      "item.some_avali_item.aeroblade.description_4": "§4- Cannot be enchanted -",
+      "item.some_avali_item.aeroblade.description_3": "",
+      "item.some_avali_item.aeroblade.description_6": "§7\u003d RBM to clear all effect while in rush \u003d",
+      "item.some_avali_item.aeroblade.description_5": "",
+      "item.some_avali_item.aeropick": "§6Aeropick",
+      "item.some_avali_item.aeroblade.description_0": "§2+ Instead of a tool, breaks blade +",
+      "biome.some_avali_item.snowland": "Snow land",
+      "item.some_avali_item.aeroblade.description_2": "§2+ Immune to fire +",
+      "item.some_avali_item.aeroblade.description_1": "§2+ Reprint blade while active +",
+      "block.some_avali_item.ammonia": "Ammonia",
+      "item.some_avali_item.aerobladehandle.description_0": "§7\u003d Press RBM to print blade back \u003d",
+      "item.some_avali_item.aeroshearhandle": "§6Aeroshear Handle",
+      "fluid_type.some_avali_item.ammonia": "Ammonia",
+      "item.some_avali_item.heatedgraphiterod.description_0": "§4Fuel 32 item",
+      "item.some_avali_item.heatedgraphiterod": "§4Heated Graphite Rod",
+      "item.some_avali_item.heatedgraphiterod.description_2": "§7Maybe too hot...",
+      "item.some_avali_item.heatedgraphiterod.description_1": "",
+      "item.some_avali_item.aeroblade.description_7": "§7\u003d Increases damage from attack rush \u003d",
+      "item.some_avali_item.leaf": "Leaf",
+      "item.some_avali_item.leafymoss": "Leafy moss",
+      "item.some_avali_item.leafymoss.description_0": "§7Clear all effects",
+      "item.some_avali_item.debugger.description_0": "§7How do you get this?",
+      "item.some_avali_item.debugger": "§6Debugger",
+      "item.some_avali_item.granitebook": "§cGranite Book",
+      "item.some_avali_item.graniteof_science": "§cGranite of Science",
+      "item.some_avali_item.graniteof_science.description_0": "§7It make you smart!",
+      "item.some_avali_item.aeroneedle": "§6Aeroneedle",
+      "item.some_avali_item.obsidianchunk.description_0": "§7Lava fishing",
+      "item.some_avali_item.granitebook.description_0": "§7RBM to store EXP in book",
+      "advancements.graniteunderstanding.title": "Understand Science of Granite of Science",
+      "advancements.graniteunderstanding.descr": "Become ultimate mindformed lifefrom!",
+      "item.some_avali_item.granitebook.description_1": "§7RBM + Shift to get more EXP!!! (probably)",
+      "advancements.mindblow.title": "Mindblow",
+      "advancements.mindblow.descr": "Cry about it.",
+      "item.some_avali_item.redcrystal": "§cRed Crystal",
+      "item.some_avali_item.redcrystal.description_0": "§7\u003d Store some redstone \u003d",
+      "item.some_avali_item.holoprojector": "Holo Projector",
+      "item.some_avali_item.quarzchip": "Quarz Chip",
+      "item.some_avali_item.quarzitedrawing": "Quarzite Drawing",
+      "item.some_avali_item.aeroknife": "§6Aeroknife",
+      "item.some_avali_item.aeroknife.description_0": "§7 \u003d Additional damage \u0026 drop from animal \u003d ",
+      "item.some_avali_item.margiumchip": "Margium Chip",
+      "item.some_avali_item.roughdiamatcrystal": "Rough Diamat Crystal",
+      "item.some_avali_item.roughmargiumcrystal": "Rough Margium Crystal",
+      "item.some_avali_item.slimecrystal": "Slime Crystal",
+      "item.some_avali_item.portableprinter": "Portable Aeroprinter",
+      "item.some_avali_item.printedpickaxe": "§6Printed Pickaxe",
+      "item.some_avali_item.printedsword": "§6Printed Sword",
+      "item.some_avali_item.printedaxe": "§6Printed Axe",
+      "item.some_avali_item.printedshovel": "§6Printed Shovel",
+      "item.some_avali_item.printedhoe": "§6Printed Hoe",
+      "item.some_avali_item.printedshear": "§6Printed Shear",
+      "item.some_avali_item.portableprinter.description_1": "§7\u003d RBM + Shift to print chosen \u003d",
+      "item.some_avali_item.portableprinter.description_0": "§7\u003d RBM to choose instrument \u003d",
+      "item.some_avali_item.smallgrindstone": "Small Grindstone",
+      "item.some_avali_item.aeroshield": "§6Aeroshield",
+      "item.some_avali_item.shieldemmiter": "§6Aeroemmiter",
+      "item.some_avali_item.aeroshield.description_0": "§7\u003d Auto-refuel using §6Aerogel pack§f \u003d",
+      "item.some_avali_item.shieldemmiter.description_0": "§7\u003d Auto-forms shield back using §6Aerogel pack§f \u003d",
+      "item.some_avali_item.aerogelcan.description_0": "§7\u003d Auto-repiar §6Aerotools§f \u003d",
+      "item.some_avali_item.desiccantsilicagel": "Selicagel bag",
+      "item.some_avali_item.roughpaddiumore": "Rough Paddium Ore",
+      "item.some_avali_item.roughcadmiumore": "Rough Cadmium Ore",
+      "item.some_avali_item.roughcrystalore": "Rough Crystal Ore",
+      "item.some_avali_item.roughnihoniumore": "Rough Nihonium Ore",
+      "block.some_avali_item.paddiumore": "Paddium Ore",
+      "block.some_avali_item.cadmiumore": "Cadmium Ore",
+      "block.some_avali_item.nihoniumore": "Nihonium Ore",
+      "block.some_avali_item.hrioore": "Hrio Ore",
+      "block.some_avali_item.diamatore": "Diamat Ore",
+      "block.some_avali_item.margiumore": "Margium Ore",
+      "item.some_avali_item.aeromer": "§6Aeromer",
+      "item.some_avali_item.aeromerhandle": "§6Aeromer Handle",
+      "block.some_avali_item.aeroblock": "§6Aeroblock",
+      "item.some_avali_item.aeromer.description_6": "§7\u003d Mine same block 3x3 \u003d",
+      "item.some_avali_item.aeromer.description_5": "",
+      "item.some_avali_item.aeromer.description_7": "§7\u003d RBM to place §6Aeroblock§7 \u003d",
+      "item.some_avali_item.aeromer.description_0": "§2+ Instead of a tool, breaks blade +",
+      "item.some_avali_item.aeromer.description_2": "§2+ Immune to fire +",
+      "item.some_avali_item.aeromer.description_1": "§2+ Reprint blade while active +",
+      "item.some_avali_item.aeromer.description_4": "§4- Cannot be enchanted -",
+      "item.some_avali_item.aeromer.description_3": "",
+      "item.some_avali_item.quarziterod": "Quarzite Rod",
+      "item.some_avali_item.diamatpeace": "Diamat Peace",
+      "item.some_avali_item.margiumpeace": "Margium Peace",
+      "item.some_avali_item.quarzpeace": "Quarz Peace",
+      "item.some_avali_item.slimecrystalpeace": "Slime Crystal Peace",
+      "item.some_avali_item.reddot.description_0": "§7\u003d Helps sets stable road in crystal \u003d",
+      "item.some_avali_item.reddot": "Red Dot",
+      "block.some_avali_item.chipcutter": "Chip Cutter",
+      "gui.some_avali_item.chipcuttergui.label_inventory": "Inventory",
+      "item.some_avali_item.aerohook": "§6Aerook",
+      "item.some_avali_item.harpoon": "§6Aeroon",
+      "item.some_avali_item.aerohook.description_0": "§7\u003d Attract user to hook landing \u003d",
+      "item.some_avali_item.aerohook.description_2": "§7\u003d Consumes §6Aerook §7to attract \u003d",
+      "item.some_avali_item.aerohook.description_1": "§7\u003d Attract hitted Mob \u003d",
+      "item.some_avali_item.lapisdot": "Lapis Dot",
+      "item.some_avali_item.greendot": "Green Dot",
+      "item.some_avali_item.romba_spawn_egg": "Romba Spawn Egg",
+      "entity.some_avali_item.romba": "Romba",
+      "item.some_avali_item.pencil": "Pencil",
+      "item.some_avali_item.aeroncil": "§6Aeroncil",
+      "item.some_avali_item.aerospear.description_1": "§2+ Reprint blade while active +",
+      "item.some_avali_item.aerospear.description_0": "§2+ Instead of a tool, breaks blade +",
+      "item.some_avali_item.aerospear.description_5": "",
+      "item.some_avali_item.aerospear.description_4": "§4- Cannot be enchanted -",
+      "item.some_avali_item.aerospear.description_3": "",
+      "item.some_avali_item.aerospear.description_2": "§2+ Immune to fire +",
+      "item.some_avali_item.aerospear.description_6": "§7\u003d Increased range \u003d",
+      "effect.some_avali_item.heavyinjury": "Heavy Injury",
+      "item.some_avali_item.aeroknife.description_1": "",
+      "item.some_avali_item.aerofishrod.description_3": "",
+      "item.some_avali_item.aeropick.description_7": "",
+      "item.some_avali_item.aeroaxe.description_7": "",
+      "item.some_avali_item.aeroshovel.description_7": "",
+      "item.some_avali_item.aerohoe.description_7": "",
+      "item.some_avali_item.aeroshear.description_5": "",
+      "item.some_avali_item.aeroblade.description_8": "",
+      "item.some_avali_item.aerospear.description_7": "",
+      "item.some_avali_item.portableprinter.description_2": "",
+      "item.some_avali_item.aeroshield.description_1": "",
+      "item.some_avali_item.shieldemmiter.description_1": "",
+      "item.some_avali_item.aeromer.description_8": "§7\u003d Apply §6Heavy Injury§7 if falling more that 4 block \u003d",
+      "item.some_avali_item.aerohook.description_3": "",
+      "item.some_avali_item.heatresistancethread": "Heat Resistance Thread",
+      "effect.some_avali_item.suppression": "Suppression",
+      "item.some_avali_item.punchcardblank": "Punch Card Blank",
+      "item.some_avali_item.punchcardquarzite": "Punch Card \u0027Quarzite\u0027",
+      "item.some_avali_item.aeroiper.description_9": "§2Damage: 4",
+      "item.some_avali_item.aeroiper.description_10": "§2Attack Speed: 4",
+      "item.some_avali_item.aeroiper.description_11": "",
+      "item.some_avali_item.aeromer.description_9": "",
+      "item.some_avali_item.leatherpeace": "Leather Peace",
+      "item.some_avali_item.meatchunk": "Meat Сhunk",
+      "item.some_avali_item.meatchunkcooked": "Cooked Meat Chunk"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/someavaliitem/init/SomeAvaliItemModFluidTypes.java",
+      "src/main/java/net/mcreator/someavaliitem/init/SomeAvaliItemModFluids.java",
+      "src/main/java/net/mcreator/someavaliitem/init/SomeAvaliItemModScreens.java",
+      "src/main/java/net/mcreator/someavaliitem/init/SomeAvaliItemModMenus.java",
+      "src/main/java/net/mcreator/someavaliitem/network/MenuStateUpdateMessage.java",
+      "src/main/java/net/mcreator/someavaliitem/init/SomeAvaliItemModFuels.java",
+      "src/main/java/net/mcreator/someavaliitem/init/SomeAvaliItemModParticleTypes.java",
+      "src/main/java/net/mcreator/someavaliitem/init/SomeAvaliItemModParticles.java",
+      "src/main/java/net/mcreator/someavaliitem/init/SomeAvaliItemModMobEffects.java",
+      "src/main/java/net/mcreator/someavaliitem/init/SomeAvaliItemModBlocks.java",
+      "src/main/java/net/mcreator/someavaliitem/init/SomeAvaliItemModBlockEntities.java",
+      "src/main/java/net/mcreator/someavaliitem/init/SomeAvaliItemModItems.java",
+      "src/main/java/net/mcreator/someavaliitem/init/SomeAvaliItemModEntityRenderers.java",
+      "src/main/java/net/mcreator/someavaliitem/init/SomeAvaliItemModEntities.java",
+      "src/main/java/net/mcreator/someavaliitem/network/SomeAvaliItemModVariables.java",
+      "src/main/java/net/mcreator/someavaliitem/init/SomeAvaliItemModTabs.java",
+      "src/main/java/net/mcreator/someavaliitem/SomeAvaliItemMod.java",
+      "src/main/java/net/mcreator/someavaliitem/init/SomeAvaliItemModModels.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/neoforge.mods.toml"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Tool",
+        "children": []
+      },
+      {
+        "name": "Material",
+        "children": []
+      },
+      {
+        "name": "Recipe",
+        "children": []
+      },
+      {
+        "name": "Block",
+        "children": []
+      },
+      {
+        "name": "Procedure",
+        "children": []
+      },
+      {
+        "name": "Other",
+        "children": []
+      },
+      {
+        "name": "Achivement",
+        "children": []
+      },
+      {
+        "name": "Command",
+        "children": []
+      },
+      {
+        "name": "Effects",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "some_avali_item",
+    "modName": "SAI",
+    "version": "0.2",
+    "author": "luv",
+    "websiteURL": "https://mcreator.net",
+    "license": "MIT License",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "some avali item wia mcreator 2025.01",
+    "modElementsPackage": "net.mcreator.someavaliitem"
+  },
+  "mcreatorVersion": 202500345720
+}

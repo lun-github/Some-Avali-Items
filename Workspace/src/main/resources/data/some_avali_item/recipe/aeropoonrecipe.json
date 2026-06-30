@@ -11,7 +11,7 @@
       "item": "some_avali_item:aerogelpack"
     },
     "b": {
-      "item": "some_avali_item:aerogel"
+      "tag": "neoforge:aerogel"
     },
     "c": {
       "item": "some_avali_item:graphite"

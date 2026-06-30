@@ -1,7 +1,6 @@
 package net.mcreator.someavaliitem.world.inventory;
 
 import net.neoforged.neoforge.items.wrapper.InvWrapper;
-import net.neoforged.neoforge.items.SlotItemHandler;
 import net.neoforged.neoforge.items.ItemStackHandler;
 import net.neoforged.neoforge.items.IItemHandlerModifiable;
 import net.neoforged.neoforge.items.IItemHandler;
@@ -32,7 +31,7 @@ public class ChipcutterguiMenu extends AbstractContainerMenu implements SomeAval
 	public final Map<String, Object> menuState = new HashMap<>() {
 		@Override
 		public Object put(String key, Object value) {
-			if (!this.containsKey(key) && this.size() >= 7)
+			if (!this.containsKey(key) && this.size() >= 0)
 				return null;
 			return super.put(key, value);
 		}
@@ -52,7 +51,7 @@ public class ChipcutterguiMenu extends AbstractContainerMenu implements SomeAval
 		super(SomeAvaliItemModMenus.CHIPCUTTERGUI.get(), id);
 		this.entity = inv.player;
 		this.world = inv.player.level();
-		this.internal = new ItemStackHandler(6);
+		this.internal = new ItemStackHandler(0);
 		BlockPos pos = null;
 		if (extraData != null) {
 			pos = extraData.readBlockPos();
@@ -89,41 +88,11 @@ public class ChipcutterguiMenu extends AbstractContainerMenu implements SomeAval
 				}
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 8, 46) {
-			private final int slot = 0;
-			private int x = ChipcutterguiMenu.this.x;
-			private int y = ChipcutterguiMenu.this.y;
-		}));
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 44, 10) {
-			private final int slot = 1;
-			private int x = ChipcutterguiMenu.this.x;
-			private int y = ChipcutterguiMenu.this.y;
-		}));
-		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 44, 28) {
-			private final int slot = 2;
-			private int x = ChipcutterguiMenu.this.x;
-			private int y = ChipcutterguiMenu.this.y;
-		}));
-		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 44, 46) {
-			private final int slot = 3;
-			private int x = ChipcutterguiMenu.this.x;
-			private int y = ChipcutterguiMenu.this.y;
-		}));
-		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 44, 64) {
-			private final int slot = 4;
-			private int x = ChipcutterguiMenu.this.x;
-			private int y = ChipcutterguiMenu.this.y;
-		}));
-		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 44, 82) {
-			private final int slot = 5;
-			private int x = ChipcutterguiMenu.this.x;
-			private int y = ChipcutterguiMenu.this.y;
-		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)
-				this.addSlot(new Slot(inv, sj + (si + 1) * 9, 0 + 8 + sj * 18, 27 + 84 + si * 18));
+				this.addSlot(new Slot(inv, sj + (si + 1) * 9, 0 + 8 + sj * 18, 0 + 84 + si * 18));
 		for (int si = 0; si < 9; ++si)
-			this.addSlot(new Slot(inv, si, 0 + 8 + si * 18, 27 + 142));
+			this.addSlot(new Slot(inv, si, 0 + 8 + si * 18, 0 + 142));
 	}
 
 	@Override
@@ -146,16 +115,16 @@ public class ChipcutterguiMenu extends AbstractContainerMenu implements SomeAval
 		if (slot != null && slot.hasItem()) {
 			ItemStack itemstack1 = slot.getItem();
 			itemstack = itemstack1.copy();
-			if (index < 6) {
-				if (!this.moveItemStackTo(itemstack1, 6, this.slots.size(), true))
+			if (index < 0) {
+				if (!this.moveItemStackTo(itemstack1, 0, this.slots.size(), true))
 					return ItemStack.EMPTY;
 				slot.onQuickCraft(itemstack1, itemstack);
-			} else if (!this.moveItemStackTo(itemstack1, 0, 6, false)) {
-				if (index < 6 + 27) {
-					if (!this.moveItemStackTo(itemstack1, 6 + 27, this.slots.size(), true))
+			} else if (!this.moveItemStackTo(itemstack1, 0, 0, false)) {
+				if (index < 0 + 27) {
+					if (!this.moveItemStackTo(itemstack1, 0 + 27, this.slots.size(), true))
 						return ItemStack.EMPTY;
 				} else {
-					if (!this.moveItemStackTo(itemstack1, 6, 6 + 27, false))
+					if (!this.moveItemStackTo(itemstack1, 0, 0 + 27, false))
 						return ItemStack.EMPTY;
 				}
 				return ItemStack.EMPTY;

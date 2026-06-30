@@ -148,6 +148,11 @@ public class SomeAvaliItemModItems {
 	public static final DeferredItem<Item> PENCIL;
 	public static final DeferredItem<Item> AERONCIL;
 	public static final DeferredItem<Item> HEATRESISTANCETHREAD;
+	public static final DeferredItem<Item> PUNCHCARDBLANK;
+	public static final DeferredItem<Item> PUNCHCARDQUARZITE;
+	public static final DeferredItem<Item> LEATHERPEACE;
+	public static final DeferredItem<Item> MEATCHUNK;
+	public static final DeferredItem<Item> MEATCHUNKCOOKED;
 	static {
 		AEROGEL = REGISTRY.register("aerogel", AerogelItem::new);
 		GRAPHITE = REGISTRY.register("graphite", GraphiteItem::new);
@@ -268,6 +273,11 @@ public class SomeAvaliItemModItems {
 		PENCIL = REGISTRY.register("pencil", PencilItem::new);
 		AERONCIL = REGISTRY.register("aeroncil", AeroncilItem::new);
 		HEATRESISTANCETHREAD = REGISTRY.register("heatresistancethread", HeatresistancethreadItem::new);
+		PUNCHCARDBLANK = REGISTRY.register("punchcardblank", PunchcardblankItem::new);
+		PUNCHCARDQUARZITE = REGISTRY.register("punchcardquarzite", PunchcardquarziteItem::new);
+		LEATHERPEACE = REGISTRY.register("leatherpeace", LeatherpeaceItem::new);
+		MEATCHUNK = REGISTRY.register("meatchunk", MeatchunkItem::new);
+		MEATCHUNKCOOKED = REGISTRY.register("meatchunkcooked", MeatchunkcookedItem::new);
 	}
 
 	// Start of user code block custom items
@@ -291,6 +301,7 @@ public class SomeAvaliItemModItems {
 		@OnlyIn(Dist.CLIENT)
 		public static void clientLoad(FMLClientSetupEvent event) {
 			event.enqueueWork(() -> {
+				ItemProperties.register(AEROIPER.get(), ResourceLocation.parse("minecraft:blocking"), ItemProperties.getProperty(new ItemStack(Items.SHIELD), ResourceLocation.parse("minecraft:blocking")));
 				ItemProperties.register(AEROSHIELD.get(), ResourceLocation.parse("minecraft:blocking"), ItemProperties.getProperty(new ItemStack(Items.SHIELD), ResourceLocation.parse("minecraft:blocking")));
 			});
 		}

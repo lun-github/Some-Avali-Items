@@ -13,13 +13,16 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "Items.IRON_NUGGET"
       },
       {
         "value": "Items.IRON_NUGGET"
       },
       {
-        "value": ""
+        "value": "Items.IRON_NUGGET"
+      },
+      {
+        "value": "CUSTOM:Aerogeldust"
       },
       {
         "value": "CUSTOM:Aerogeldust"
@@ -28,16 +31,13 @@
         "value": "CUSTOM:Thread"
       },
       {
+        "value": "CUSTOM:Thread"
+      },
+      {
         "value": "CUSTOM:Aerogeldust"
       },
       {
-        "value": ""
-      },
-      {
-        "value": "Items.IRON_NUGGET"
-      },
-      {
-        "value": ""
+        "value": "CUSTOM:Aerogeldust"
       }
     ],
     "recipeReturnStack": {

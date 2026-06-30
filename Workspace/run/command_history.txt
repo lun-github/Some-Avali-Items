@@ -37,3 +37,5 @@
 /effect give Dev some_avali_item:heavyinjury 14
 /effect give Dev some_avali_item:heavyinjury 20 2
 /effect give Dev some_avali_item:heavyinjury 30 0
+/time set nig
+/time set night

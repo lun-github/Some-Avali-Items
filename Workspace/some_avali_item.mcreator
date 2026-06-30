@@ -1082,6 +1082,7 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/someavaliitem/item/AeroiperItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/aeroiper_0.json",
           "src/main/resources/assets/some_avali_item/models/item/aeroiper.json"
         ]
       },
@@ -2740,20 +2741,6 @@
       "path": "~/Recipe"
     },
     {
-      "name": "Quarziterecipealt",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "quarziterecipealt",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/some_avali_item/recipe/quarziterecipealt.json",
-          "src/main/resources/data/some_avali_item/advancement/recipes/quarziterecipealt.json"
-        ]
-      },
-      "path": "~/Recipe"
-    },
-    {
       "name": "Aeroknife",
       "type": "tool",
       "compiles": true,
@@ -4404,7 +4391,16 @@
       "locked_code": false,
       "registry_name": "aeromer_inv_tick",
       "metadata": {
-        "dependencies": [],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          }
+        ],
         "files": [
           "src/main/java/net/mcreator/someavaliitem/procedures/Aeromer_inv_tickProcedure.java"
         ]
@@ -4586,6 +4582,164 @@
         ]
       },
       "path": "~/Recipe"
+    },
+    {
+      "name": "Suppression",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suppression",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/potion/SuppressionMobEffect.java"
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "Punchcardblank",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "punchcardblank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/PunchcardblankItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/punchcardblank.json"
+        ]
+      }
+    },
+    {
+      "name": "Punchcardquarzite",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "punchcardquarzite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/punchcardquarzite.json",
+          "src/main/java/net/mcreator/someavaliitem/item/PunchcardquarziteItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Aeromer_hit",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeromer_hit",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/procedures/Aeromer_hitProcedure.java"
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Leatherpeace",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leatherpeace",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/LeatherpeaceItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/leatherpeace.json"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Meatchunk",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meatchunk",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/some_avali_item/models/item/meatchunk.json",
+          "src/main/java/net/mcreator/someavaliitem/item/MeatchunkItem.java"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Leatherrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leatherrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/leatherrecipe.json",
+          "src/main/resources/data/some_avali_item/advancement/recipes/leatherrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Meatchunkcooked",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meatchunkcooked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/someavaliitem/item/MeatchunkcookedItem.java",
+          "src/main/resources/assets/some_avali_item/models/item/meatchunkcooked.json"
+        ]
+      },
+      "path": "~/Material"
+    },
+    {
+      "name": "Meatchunkcookedrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meatchunkcookedrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/recipe/meatchunkcookedrecipe.json",
+          "src/main/resources/data/some_avali_item/advancement/recipes/meatchunkcookedrecipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Meatchunkcookedrecipealt",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meatchunkcookedrecipealt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/some_avali_item/advancement/recipes/meatchunkcookedrecipealt.json",
+          "src/main/resources/data/some_avali_item/recipe/meatchunkcookedrecipealt.json"
+        ]
+      },
+      "path": "~/Recipe"
     }
   ],
   "variable_elements": [
@@ -4710,13 +4864,13 @@
       "value": "0"
     },
     {
-      "name": "aeromer_fall_damage",
+      "name": "aeromer_fall_y1",
       "type": "number",
       "scope": "player_lifetime",
       "value": "0"
     },
     {
-      "name": "aeromer_fall_damage_last",
+      "name": "aeromer_fall_y2",
       "type": "number",
       "scope": "player_lifetime",
       "value": "0"
@@ -4784,12 +4938,10 @@
       "CUSTOM:Aeromerhandle"
     ],
     "ITEMS:minecraft:pickaxes": [
-      "~CUSTOM:Aeroiper",
       "~CUSTOM:Aeromerhandle",
       "~CUSTOM:Aeromer",
       "~CUSTOM:Printedpickaxe",
       "~CUSTOM:Aerospearhandle",
-      "~CUSTOM:Aerospear",
       "~CUSTOM:Aeroiperhandle",
       "~CUSTOM:Aerobladehandle",
       "~CUSTOM:Aeroshearhandle",
@@ -4808,6 +4960,7 @@
       "~CUSTOM:Crystalore"
     ],
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:Aerospear",
       "~CUSTOM:Printedsword",
       "~CUSTOM:Aeroknife",
       "~CUSTOM:Aeroblade"
@@ -4833,7 +4986,8 @@
     "BLOCKS:sai:loose": [
       "Blocks.SAND#0",
       "Blocks.SAND#1",
-      "Blocks.GRAVEL"
+      "Blocks.GRAVEL",
+      "CUSTOM:Sako"
     ],
     "BLOCKS:sai:hoe": [
       "Blocks.GRASS_PATH",
@@ -4887,19 +5041,25 @@
       "CUSTOM:Aeroaxe",
       "CUSTOM:Aeroshovel",
       "CUSTOM:Aeroshear",
-      "CUSTOM:Aeromer"
+      "CUSTOM:Printedpickaxe",
+      "CUSTOM:Printedaxe",
+      "CUSTOM:Printedshovel",
+      "CUSTOM:Printedhoe",
+      "CUSTOM:Printedshear"
     ],
     "ITEMS:sai:heavy_injury_2": [
       "CUSTOM:Aeroblade",
       "CUSTOM:Aeroiper",
       "CUSTOM:Aerospear",
-      "CUSTOM:Aerohoe"
+      "CUSTOM:Aerohoe",
+      "CUSTOM:Printedsword"
     ],
     "ITEMS:sai:lava_fishing/common": [
       "CUSTOM:Obsidianchunk",
       "CUSTOM:Graphitepeace",
       "CUSTOM:Quarzpeace",
-      "Items.GOLD_NUGGET"
+      "Items.GOLD_NUGGET",
+      "Items.GLOWSTONE_DUST"
     ],
     "ITEMS:sai:lava_fishing/rare": [
       "Items.MAGMA_CREAM",
@@ -4908,6 +5068,13 @@
     "ITEMS:sai:lava_fishing/exotic": [
       "Items.GHAST_TEAR",
       "Items.BLAZE_ROD"
+    ],
+    "ITEMS:neoforge:aerogel": [
+      "CUSTOM:Aerogel"
+    ],
+    "ITEMS:minecraft:meat": [
+      "~CUSTOM:Meatchunkcooked",
+      "~CUSTOM:Meatchunk"
     ]
   },
   "tab_element_order": {
@@ -4997,7 +5164,10 @@
       "Display",
       "Holoprojector",
       "Thread",
+      "Heatresistancethread",
       "Singlesolarpanel",
+      "Pencil",
+      "Aeroncil",
       "Leaf",
       "Leafymoss",
       "GraniteofScience",
@@ -5008,8 +5178,9 @@
       "Reddot",
       "Lapisdot",
       "Greendot",
-      "Pencil",
-      "Aeroncil"
+      "Leatherpeace",
+      "Meatchunk",
+      "Meatchunkcooked"
     ]
   },
   "language_map": {
@@ -5094,8 +5265,8 @@
       "item.some_avali_item.aeroiper.description_4": "§4- Cannot be enchanted -",
       "item.some_avali_item.graphiteblank.description_0": "§4Blasting to graphite",
       "item.some_avali_item.aeroiper.description_5": "",
-      "item.some_avali_item.aeroiper.description_6": "§7\u003d 200% damage while above enemy \u003d",
-      "item.some_avali_item.aeroiper.description_7": "§7\u003d RBM for parry attack to avoid damage \u003d",
+      "item.some_avali_item.aeroiper.description_6": "§7\u003d 300% damage while above enemy \u003d",
+      "item.some_avali_item.aeroiper.description_7": "§7\u003d RBM for parry attack and avoid damage \u003d",
       "item.some_avali_item.aeroiper.description_8": "",
       "item.some_avali_item.aerospearhandle": "§6Aerospear Handle",
       "item.some_avali_item.obsidianchunk": "Obsidian Chunk",
@@ -5256,9 +5427,19 @@
       "item.some_avali_item.portableprinter.description_2": "",
       "item.some_avali_item.aeroshield.description_1": "",
       "item.some_avali_item.shieldemmiter.description_1": "",
-      "item.some_avali_item.aeromer.description_8": "",
+      "item.some_avali_item.aeromer.description_8": "§7\u003d Apply §6Heavy Injury§7 if falling more that 4 block \u003d",
       "item.some_avali_item.aerohook.description_3": "",
-      "item.some_avali_item.heatresistancethread": "Heat Resistance Thread"
+      "item.some_avali_item.heatresistancethread": "Heat Resistance Thread",
+      "effect.some_avali_item.suppression": "Suppression",
+      "item.some_avali_item.punchcardblank": "Punch Card Blank",
+      "item.some_avali_item.punchcardquarzite": "Punch Card \u0027Quarzite\u0027",
+      "item.some_avali_item.aeroiper.description_9": "§2Damage: 4",
+      "item.some_avali_item.aeroiper.description_10": "§2Attack Speed: 4",
+      "item.some_avali_item.aeroiper.description_11": "",
+      "item.some_avali_item.aeromer.description_9": "",
+      "item.some_avali_item.leatherpeace": "Leather Peace",
+      "item.some_avali_item.meatchunk": "Meat Сhunk",
+      "item.some_avali_item.meatchunkcooked": "Cooked Meat Chunk"
     }
   },
   "metadata": {
@@ -5329,7 +5510,7 @@
   "workspaceSettings": {
     "modid": "some_avali_item",
     "modName": "SAI",
-    "version": "0.2",
+    "version": "0.3",
     "author": "luv",
     "websiteURL": "https://mcreator.net",
     "license": "MIT License",

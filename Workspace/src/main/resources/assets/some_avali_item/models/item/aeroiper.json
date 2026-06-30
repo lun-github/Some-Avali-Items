@@ -2,5 +2,13 @@
   "parent": "item/handheld",
   "textures": {
     "layer0": "some_avali_item:item/aeroraiper"
-  }
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "blocking": 1
+      },
+      "model": "some_avali_item:item/aeroiper_0"
+    }
+  ]
 }

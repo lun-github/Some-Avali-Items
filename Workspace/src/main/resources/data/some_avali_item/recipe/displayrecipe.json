@@ -26,7 +26,7 @@
       "item": "minecraft:red_dye"
     },
     "g": {
-      "item": "minecraft:redstone"
+      "item": "some_avali_item:quarzchip"
     }
   },
   "result": {

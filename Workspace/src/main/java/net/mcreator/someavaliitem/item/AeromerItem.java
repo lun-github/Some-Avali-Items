@@ -21,6 +21,7 @@ import net.mcreator.someavaliitem.procedures.Aerotool_hand_tickProcedure;
 import net.mcreator.someavaliitem.procedures.Aeropick_block_destroyedProcedure;
 import net.mcreator.someavaliitem.procedures.Aeromer_rbmProcedure;
 import net.mcreator.someavaliitem.procedures.Aeromer_inv_tickProcedure;
+import net.mcreator.someavaliitem.procedures.Aeromer_hitProcedure;
 import net.mcreator.someavaliitem.init.SomeAvaliItemModItems;
 
 import java.util.List;
@@ -59,13 +60,20 @@ public class AeromerItem extends PickaxeItem {
 	};
 
 	public AeromerItem() {
-		super(TOOL_TIER, new Item.Properties().attributes(DiggerItem.createAttributes(TOOL_TIER, 7f, -3.4f)).fireResistant());
+		super(TOOL_TIER, new Item.Properties().attributes(DiggerItem.createAttributes(TOOL_TIER, 5f, -3.4f)).fireResistant());
 	}
 
 	@Override
 	public boolean mineBlock(ItemStack itemstack, Level world, BlockState blockstate, BlockPos pos, LivingEntity entity) {
 		boolean retval = super.mineBlock(itemstack, world, blockstate, pos, entity);
 		Aeropick_block_destroyedProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), blockstate, entity, itemstack);
+		return retval;
+	}
+
+	@Override
+	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
+		boolean retval = super.hurtEnemy(itemstack, entity, sourceentity);
+		Aeromer_hitProcedure.execute(entity.level(), entity.getY(), entity, sourceentity, itemstack);
 		return retval;
 	}
 
@@ -82,6 +90,7 @@ public class AeromerItem extends PickaxeItem {
 		list.add(Component.translatable("item.some_avali_item.aeromer.description_6"));
 		list.add(Component.translatable("item.some_avali_item.aeromer.description_7"));
 		list.add(Component.translatable("item.some_avali_item.aeromer.description_8"));
+		list.add(Component.translatable("item.some_avali_item.aeromer.description_9"));
 	}
 
 	@Override
@@ -96,6 +105,6 @@ public class AeromerItem extends PickaxeItem {
 		super.inventoryTick(itemstack, world, entity, slot, selected);
 		if (selected)
 			Aerotool_hand_tickProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity, itemstack);
-		Aeromer_inv_tickProcedure.execute();
+		Aeromer_inv_tickProcedure.execute(entity.getY(), entity);
 	}
 }

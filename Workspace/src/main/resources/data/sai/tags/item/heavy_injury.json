@@ -1,10 +1,14 @@
 {
   "replace": false,
   "values": [
+    "some_avali_item:printedshear",
+    "some_avali_item:printedshovel",
     "some_avali_item:aeropick",
     "some_avali_item:aeroaxe",
     "some_avali_item:aeroshovel",
-    "some_avali_item:aeromer",
+    "some_avali_item:printedpickaxe",
+    "some_avali_item:printedaxe",
+    "some_avali_item:printedhoe",
     "some_avali_item:aeroshear"
   ]
 }

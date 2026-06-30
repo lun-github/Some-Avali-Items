@@ -8,7 +8,7 @@
   ],
   "key": {
     "a": {
-      "item": "some_avali_item:aerogel"
+      "tag": "neoforge:aerogel"
     },
     "b": {
       "item": "some_avali_item:graphiterod"

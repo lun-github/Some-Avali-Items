@@ -87,8 +87,8 @@ public class SomeAvaliItemModVariables {
 			clone.harpon_z = original.harpon_z;
 			clone.ishooked = original.ishooked;
 			clone.hookAutoDetach = original.hookAutoDetach;
-			clone.aeromer_fall_damage = original.aeromer_fall_damage;
-			clone.aeromer_fall_damage_last = original.aeromer_fall_damage_last;
+			clone.aeromer_fall_y1 = original.aeromer_fall_y1;
+			clone.aeromer_fall_y2 = original.aeromer_fall_y2;
 		}
 		event.getEntity().setData(PLAYER_VARIABLES, clone);
 	}
@@ -115,8 +115,8 @@ public class SomeAvaliItemModVariables {
 		public double harpon_z = 0;
 		public boolean ishooked = false;
 		public double hookAutoDetach = 0;
-		public double aeromer_fall_damage = 0;
-		public double aeromer_fall_damage_last = 0;
+		public double aeromer_fall_y1 = 0;
+		public double aeromer_fall_y2 = 0;
 
 		@Override
 		public CompoundTag serializeNBT(HolderLookup.Provider lookupProvider) {
@@ -141,8 +141,8 @@ public class SomeAvaliItemModVariables {
 			nbt.putDouble("harpon_z", harpon_z);
 			nbt.putBoolean("ishooked", ishooked);
 			nbt.putDouble("hookAutoDetach", hookAutoDetach);
-			nbt.putDouble("aeromer_fall_damage", aeromer_fall_damage);
-			nbt.putDouble("aeromer_fall_damage_last", aeromer_fall_damage_last);
+			nbt.putDouble("aeromer_fall_y1", aeromer_fall_y1);
+			nbt.putDouble("aeromer_fall_y2", aeromer_fall_y2);
 			return nbt;
 		}
 
@@ -168,8 +168,8 @@ public class SomeAvaliItemModVariables {
 			harpon_z = nbt.getDouble("harpon_z");
 			ishooked = nbt.getBoolean("ishooked");
 			hookAutoDetach = nbt.getDouble("hookAutoDetach");
-			aeromer_fall_damage = nbt.getDouble("aeromer_fall_damage");
-			aeromer_fall_damage_last = nbt.getDouble("aeromer_fall_damage_last");
+			aeromer_fall_y1 = nbt.getDouble("aeromer_fall_y1");
+			aeromer_fall_y2 = nbt.getDouble("aeromer_fall_y2");
 		}
 
 		public void markSyncDirty() {

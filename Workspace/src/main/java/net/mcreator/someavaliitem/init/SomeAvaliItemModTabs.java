@@ -107,7 +107,10 @@ public class SomeAvaliItemModTabs {
 				tabData.accept(SomeAvaliItemModItems.DISPLAY.get());
 				tabData.accept(SomeAvaliItemModItems.HOLOPROJECTOR.get());
 				tabData.accept(SomeAvaliItemModItems.THREAD.get());
+				tabData.accept(SomeAvaliItemModItems.HEATRESISTANCETHREAD.get());
 				tabData.accept(SomeAvaliItemModItems.SINGLESOLARPANEL.get());
+				tabData.accept(SomeAvaliItemModItems.PENCIL.get());
+				tabData.accept(SomeAvaliItemModItems.AERONCIL.get());
 				tabData.accept(SomeAvaliItemModItems.LEAF.get());
 				tabData.accept(SomeAvaliItemModItems.LEAFYMOSS.get());
 				tabData.accept(SomeAvaliItemModItems.GRANITEOF_SCIENCE.get());
@@ -118,8 +121,9 @@ public class SomeAvaliItemModTabs {
 				tabData.accept(SomeAvaliItemModItems.REDDOT.get());
 				tabData.accept(SomeAvaliItemModItems.LAPISDOT.get());
 				tabData.accept(SomeAvaliItemModItems.GREENDOT.get());
-				tabData.accept(SomeAvaliItemModItems.PENCIL.get());
-				tabData.accept(SomeAvaliItemModItems.AERONCIL.get());
+				tabData.accept(SomeAvaliItemModItems.LEATHERPEACE.get());
+				tabData.accept(SomeAvaliItemModItems.MEATCHUNK.get());
+				tabData.accept(SomeAvaliItemModItems.MEATCHUNKCOOKED.get());
 			}).build());
 
 	@SubscribeEvent

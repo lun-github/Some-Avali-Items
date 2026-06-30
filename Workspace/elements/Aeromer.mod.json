@@ -20,6 +20,7 @@
         "",
         "§7= Mine same block 3x3 =",
         "§7= RBM to place §6Aeroblock§7 =",
+        "§7= Apply §6Heavy Injury§7 if falling more that 4 block =",
         ""
       ]
     },
@@ -31,7 +32,7 @@
     "efficiency": 15.0,
     "attackSpeed": 0.6,
     "enchantability": 1,
-    "damageVsEntity": 8.0,
+    "damageVsEntity": 6.0,
     "usageCount": 256,
     "glowCondition": {
       "fixedValue": false
@@ -48,6 +49,9 @@
     "damageOnCrafting": false,
     "onRightClickedOnBlock": {
       "name": "Aeromer_rbm"
+    },
+    "onEntityHitWith": {
+      "name": "Aeromer_hit"
     },
     "onItemInInventoryTick": {
       "name": "Aeromer_inv_tick"

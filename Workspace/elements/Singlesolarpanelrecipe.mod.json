@@ -26,13 +26,13 @@
         "value": "CUSTOM:Graphite"
       },
       {
-        "value": "CUSTOM:Aerogel"
+        "value": "TAG:neoforge:aerogel"
       },
       {
         "value": "Items.REDSTONE"
       },
       {
-        "value": "CUSTOM:Aerogel"
+        "value": "TAG:neoforge:aerogel"
       },
       {
         "value": "CUSTOM:Redstonewire"

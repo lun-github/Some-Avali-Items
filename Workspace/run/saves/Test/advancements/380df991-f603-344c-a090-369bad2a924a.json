@@ -2602,5 +2602,17 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2026-06-30 03:53:04 +0300"
+    },
+    "done": true
+  },
+  "some_avali_item:recipes/aerogeldustrecipealt": {
+    "criteria": {
+      "has_ingredient_0": "2026-06-30 14:04:11 +0300"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }

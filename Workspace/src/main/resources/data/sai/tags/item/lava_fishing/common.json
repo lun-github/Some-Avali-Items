@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "some_avali_item:quarzpeace",
+    "minecraft:glowstone_dust",
     "minecraft:gold_nugget",
     "some_avali_item:obsidianchunk",
     "some_avali_item:graphitepeace"

@@ -17,28 +17,28 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Aerogel"
+        "value": "TAG:neoforge:aerogel"
       },
       {
-        "value": "Items.REDSTONE"
+        "value": "CUSTOM:Graphite"
       },
       {
         "value": "CUSTOM:Redstonewire"
       },
       {
-        "value": "CUSTOM:Aerogel"
-      },
-      {
-        "value": "CUSTOM:Graphiterod"
+        "value": "TAG:neoforge:aerogel"
       },
       {
         "value": "CUSTOM:Quarzchip"
       },
       {
-        "value": "CUSTOM:Aerogel"
+        "value": "CUSTOM:Redcrystal"
       },
       {
-        "value": "Items.REDSTONE"
+        "value": "TAG:neoforge:aerogel"
+      },
+      {
+        "value": "CUSTOM:Graphite"
       },
       {
         "value": "CUSTOM:Redstonewire"

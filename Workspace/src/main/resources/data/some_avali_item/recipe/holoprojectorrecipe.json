@@ -8,19 +8,19 @@
   ],
   "key": {
     "a": {
-      "item": "some_avali_item:aerogel"
+      "tag": "neoforge:aerogel"
     },
     "b": {
-      "item": "minecraft:redstone"
+      "item": "some_avali_item:graphite"
     },
     "c": {
       "item": "some_avali_item:redstonewire"
     },
     "d": {
-      "item": "some_avali_item:graphiterod"
+      "item": "some_avali_item:quarzchip"
     },
     "e": {
-      "item": "some_avali_item:quarzchip"
+      "item": "some_avali_item:redcrystal"
     }
   },
   "result": {

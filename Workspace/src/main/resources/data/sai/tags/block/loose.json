@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "some_avali_item:sako",
     "minecraft:gravel",
     "minecraft:sand",
     "minecraft:red_sand"
